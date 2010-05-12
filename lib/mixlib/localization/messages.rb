@@ -56,6 +56,13 @@ module Mixlib
       # 3. languages: the message in different languages, use the language code as the key.
       def self.messages
         messages = {
+          "opscode-chef-webui-500" => {
+            "message_id" => "10000",
+            "languages" => {
+              "en_us" => "An application error has occurred. Please try again later.",
+              "zh_cn" => ""
+            }
+          },
           "opscode-chef-webui-nodes-show-403" => {
             "message_id" => "10000",
             "languages" => {
