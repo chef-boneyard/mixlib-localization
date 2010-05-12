@@ -315,6 +315,188 @@ module Mixlib
               "zh_cn" => "对不起，尝试读取此组织的客户端列表超时。"
             }
           },
+		  "opscode-chef-webui-clients-edit-403" => {
+		    "message_id" => "20000",
+            "languages" => {
+              "en_us" => "Permission denied. You do not have permission to read this client.",
+              "zh_cn" => "对不起，您没有权限读取此客户端。"
+            }
+		  },
+	      "opscode-chef-webui-clients-edit-404" => {
+		    "message_id" => "20000",
+            "languages" => {
+              "en_us" => "Client not found.",
+              "zh_cn" => "无法找到客户端。"
+            }
+		  },
+		  "opscode-chef-webui-clients-edit-408" => {
+			"message_id" => "20000",
+            "languages" => {
+              "en_us" => "Request timed out when attempting to read the client.",
+              "zh_cn" => "对不起，尝试读取此客户端超时。"
+            }
+		  },
+		  "opscode-chef-webui-clients-update-success" => {
+            "message_id" => "20000",
+            "languages" => {
+              "en_us" => "The client was updated successfully.",
+              "zh_cn" => "成功更新客户端。"
+            }
+          },
+		  "opscode-chef-webui-clients-update-403" => {
+            "message_id" => "20000",
+            "languages" => {
+              "en_us" => "Permission denied. You do not have permission to modify this client.",
+              "zh_cn" => "对不起，您没有权限修改此客户端。"
+            }
+          },
+		  "opscode-chef-webui-clients-update-404" => {
+            "message_id" => "20000",
+            "languages" => {
+              "en_us" => "Client not found.",
+              "zh_cn" => "无法找到客户端。"
+            }
+          },
+		  "opscode-chef-webui-clients-update-408" => {
+            "message_id" => "20000",
+            "languages" => {
+              "en_us" => "Request timed out when attempting to modify the client.",
+              "zh_cn" => "对不起，尝试修改此客户端超时。"
+            }
+          },
+		  "opscode-chef-webui-clients-update-409" => {
+            "message_id" => "20000",
+            "languages" => {
+              "en_us" => "The new name of the client conflicts with another existing client.",
+              "zh_cn" => "同名客户端已存在。"
+            }
+          },
+		  "opscode-chef-webui-clients-update-400" => {
+            "message_id" => "20000",
+            "languages" => {
+              "en_us" => "The new client name contains illegal characters. The following characters are allowed: a-z, A-Z, 0-9, _, -",
+              "zh_cn" => "新客户端名字中含有不支持的字符。系统支持的字符包括：a-z, A-Z, 0-9, _, -。"
+            }
+          },
+		  "opscode-chef-webui-clients-create-success" => {
+            "message_id" => "20000",
+            "languages" => {
+              "en_us" => "The client was created successfully.",
+              "zh_cn" => "成功创建客户端。"
+            }
+          },
+		  "opscode-chef-webui-clients-private-key" => {
+            "message_id" => "20000",
+            "languages" => {
+              "en_us" => "This private key will be required when you interact with Opscode Platform APIs. Opscode does not keep a copy so please store it somewhere safe.",
+              "zh_cn" => "与Opscode平台API交互时，您将需要此私钥。请妥善保存，Opscode不会存储此私钥。"
+            }
+          },
+		  "opscode-chef-webui-clients-create-400" => {
+            "message_id" => "20000",
+            "languages" => {
+              "en_us" => "The new client name contains illegal characters. The following characters are allowed: a-z, A-Z, 0-9, _, -",
+              "zh_cn" => "新客户端名字中含有不支持的字符。系统支持的字符包括：a-z, A-Z, 0-9, _, -。"
+            }
+          },
+		  "opscode-chef-webui-clients-create-403" => {
+            "message_id" => "20000",
+            "languages" => {
+              "en_us" => "Permission denied. You do not have permission to create a client in this organization.",
+              "zh_cn" => "对不起，您没有权限在此组织创建新的客户端。"
+            }
+          },
+		  "opscode-chef-webui-clients-create-408" => {
+            "message_id" => "20000",
+            "languages" => {
+              "en_us" => "Request timed out when attempting to create a new client.",
+              "zh_cn" => "对不起，尝试创建新客户端超时。"
+            }
+          },
+		  "opscode-chef-webui-clients-create-409" => {
+            "message_id" => "20000",
+            "languages" => {
+              "en_us" => "A client with that name already exists.",
+              "zh_cn" => "同名客户端已存在。"
+            }
+          },
+		  "opscode-chef-webui-clients-destroy-success" => {
+            "message_id" => "20000",
+            "languages" => {
+              "en_us" => "The client was deleted successfully.",
+              "zh_cn" => "成功删除客户端。"
+            }
+          },
+		  "opscode-chef-webui-clients-destroy-confirm" => {
+            "message_id" => "10015",
+            "languages" => {
+              "en_us" => "Please confirm that you would like to delete this client.",
+              "zh_cn" => "请确认您希望删除此客户端。"
+            }
+          },
+		  "opscode-chef-webui-clients-destroy-403" => {
+            "message_id" => "20000",
+            "languages" => {
+              "en_us" => "Permission denied. You do not have permission to delete this client.",
+              "zh_cn" => "对不起，您没有权限删除此客户端。"
+            }
+          },
+          "opscode-chef-webui-clients-destroy-404" => {
+            "message_id" => "20000",
+            "languages" => {
+              "en_us" => "Client not found.",
+              "zh_cn" => "无法找到客户端。"
+            }
+          },
+          "opscode-chef-webui-clients-destroy-408" => {
+            "message_id" => "20000",
+            "languages" => {
+              "en_us" => "Request timed out when attempting to delete this client.",
+              "zh_cn" => "对不起，尝试删除此客户端超时。"
+            }
+          },
+		  "opscode-chef-webui-clients-container-acl-get-403" => {
+            "message_id" => "20000",
+            "languages" => {
+              "en_us" => "Permission denied. You do not have permission to read the permissions on the clients collection in this organization.",
+              "zh_cn" => "对不起，您没有权限读取此组织的客户端集合的权限设置。"
+            }
+          },
+          "opscode-chef-webui-clients-container-acl-get-408" => {
+            "message_id" => "20000",
+            "languages" => {
+              "en_us" => "Request timed out when attempting to read the permissions on the clients collection in this organization.",
+              "zh_cn" => "对不起，尝试读取此组织的客户端集合的权限设置超时。"
+            }
+          },
+		  "opscode-chef-webui-clients-container-acl-set" => {
+            "message_id" => "20000",
+            "languages" => {
+              "en_us" => "Failed to set permissions on the clients collection in this organization.",
+              "zh_cn" => "对不起，更新此组织的客户端集合的权限设置失败。"
+            }
+          },
+		  "opscode-chef-webui-clients-acl-get-403" => {
+            "message_id" => "10002",
+            "languages" => {
+              "en_us" => "Permission denied. You do not have permission to read the permissions on this client.",
+              "zh_cn" => "对不起，您没有权限读取此客户端的权限设置。"
+            }
+          },
+          "opscode-chef-webui-clients-acl-get-408" => {
+            "message_id" => "10002",
+            "languages" => {
+              "en_us" => "Request timed out when attempting to read the permissions on this client.",
+              "zh_cn" => "对不起，尝试读取客户端的权限设置超时"
+            }
+          },
+		  "opscode-chef-webui-clients-acl-set" => {
+            "message_id" => "20000",
+            "languages" => {
+              "en_us" => "Failed to set permissions on this client.",
+              "zh_cn" => "对不起，更新此客户端的权限设置失败。"
+            }
+          },
           "opscode-chef-webui-groups-index-403" => {
             "message_id" => "20000",
             "languages" => {
@@ -834,7 +1016,7 @@ module Mixlib
               "zh_cn" => "对不起，尝试删除此角色超时。"
             }
           },
-		            "opscode-chef-webui-databags-show-403" => {
+		  "opscode-chef-webui-databags-show-403" => {
             "message_id" => "10000",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to view the databag.",
