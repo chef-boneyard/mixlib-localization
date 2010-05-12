@@ -586,7 +586,7 @@ module Mixlib
             "message_id" => "10002",
             "languages" => {
               "en_us" => "Failed to set permissions on the cookbooks collection in this organization.",
-              "zh_cn" => "对不起。更新此组织的食谱集合权限设置失败。"
+              "zh_cn" => "对不起，更新此组织的食谱集合权限设置失败。"
             }
           },
           "opscode-chef-webui-cookbooks-acl-get-403" => {
