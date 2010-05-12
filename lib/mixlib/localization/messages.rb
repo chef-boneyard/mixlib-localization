@@ -60,7 +60,7 @@ module Mixlib
             "message_id" => "10000",
             "languages" => {
               "en_us" => "An application error has occurred. Please try again later.",
-              "zh_cn" => ""
+              "zh_cn" => "应用程序错误，请稍候重试。多谢理解。"
             }
           },
           "opscode-chef-webui-nodes-show-403" => {
@@ -74,7 +74,7 @@ module Mixlib
             "message_id" => "10001",
             "languages" => {
               "en_us" => "Node not found.",
-              "zh_cn" => "对不起，您尝试查看的节点不存在。"
+              "zh_cn" => "无法找到节点。"
             }
           },
           "opscode-chef-webui-nodes-show-408" => {
@@ -200,336 +200,337 @@ module Mixlib
             "message_id" => "10011",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to create a node in this organization.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限在此组织创建新的节点。"
             }
           },
           "opscode-chef-webui-nodes-create-408" => {
             "message_id" => "10011",
             "languages" => {
               "en_us" => "Request timed out when attempting to create a new node.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，尝试创建新节点超时。"
             }
           },
           "opscode-chef-webui-nodes-update-success" => {
             "message_id" => "10009",
             "languages" => {
               "en_us" => "The node was updated successfully.",
-              "zh_cn" => ""
+              "zh_cn" => "成功更新节点。"
             }
           },
           "opscode-chef-webui-nodes-update-failed-validation" => {
             "message_id" => "10009",
             "languages" => {
               "en_us" => "The new node is not formed correctly. Check for illegal characters in the node's name or body, and check that the body is formed correctly.",
-              "zh_cn" => ""
+              "zh_cn" => "新节点名字或内容中含有不支持的字符，或节点的结构不正确。"
             }
           },
           "opscode-chef-webui-nodes-update-403" => {
             "message_id" => "10012",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to modify this node.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限修改此节点。"
             }
           },
           "opscode-chef-webui-nodes-update-408" => {
             "message_id" => "10013",
             "languages" => {
               "en_us" => "Request timed out when attempting to modify the node.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，尝试修改此节点超时。"
             }
           },
           "opscode-chef-webui-nodes-update-409" => {
             "message_id" => "10013",
             "languages" => {
               "en_us" => "The new name of the node conflicts with another existing node.",
-              "zh_cn" => ""
+              "zh_cn" => "同名节点已存在。"
             }
           },
           "opscode-chef-webui-nodes-update-404" => {
             "message_id" => "10014",
             "languages" => {
               "en_us" => "Node not found.",
-              "zh_cn" => ""
+              "zh_cn" => "无法找到节点。"
             }
           },
           "opscode-chef-webui-nodes-destroy-success" => {
             "message_id" => "10015",
             "languages" => {
               "en_us" => "The node was deleted successfully.",
-              "zh_cn" => ""
+              "zh_cn" => "成功删除节点。"
             }
           },
           "opscode-chef-webui-nodes-destroy-confirm" => {
             "message_id" => "10015",
             "languages" => {
               "en_us" => "Please confirm that you would like to delete this node.",
-              "zh_cn" => ""
+              "zh_cn" => "请确认您希望删除此节点。"
             }
           },
           "opscode-chef-webui-nodes-destroy-404" => {
             "message_id" => "10015",
             "languages" => {
               "en_us" => "Node not found.",
-              "zh_cn" => ""
+              "zh_cn" => "无法找到节点。"
             }
           },
           "opscode-chef-webui-nodes-destroy-403" => {
             "message_id" => "10015",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to delete this node.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您无权删除此节点。"
             }
           },
           "opscode-chef-webui-nodes-destroy-408" => {
             "message_id" => "10015",
             "languages" => {
               "en_us" => "Request timed out when attempting to delete this node.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，尝试删除此节点超时。"
             }
           },
           "opscode-chef-webui-users-index-403" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to list the users in this organization.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限查看此组织的用户列表。"
             }
           },
           "opscode-chef-webui-users-index-408" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "Request timed out when attempting to retrieve the list of users in this organization.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，尝试读取此组织的用户列表超时。"
             }
           },
           "opscode-chef-webui-clients-index-403" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to list the clients in this organization.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限查看此组织的客户端列表。"
             }
           },
           "opscode-chef-webui-clients-index-408" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "Request timed out when attempting to retrieve the list of clients in this organization.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，尝试读取此组织的客户端列表超时。"
             }
           },
           "opscode-chef-webui-groups-index-403" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to list the groups in this organization.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限查看此组织的群组列表。"
             }
           },
           "opscode-chef-webui-groups-index-408" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "Request timed out when attempting to retrieve the list of groups in this organization.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，尝试读取此组织的群组列表超时。"
             }
           },
           "opscode-chef-webui-groups-edit-403" => {
             "message_id" => "20001",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to read this group.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限读取此群组。"
             }
           },
           "opscode-chef-webui-groups-edit-404" => {
             "message_id" => "20002",
             "languages" => {
               "en_us" => "Group not found.",
-              "zh_cn" => ""
+              "zh_cn" => "无法找到群组。"
             }
           },
           "opscode-chef-webui-groups-edit-408" => {
             "message_id" => "20003",
             "languages" => {
               "en_us" => "Request timed out when attempting to read the group.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，尝试读取此群组超时。"
             }
           },
           "opscode-chef-webui-groups-show-403" => {
             "message_id" => "30000",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to view the group.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限访问此群组。"
             }
           },
           "opscode-chef-webui-groups-show-404" => {
             "message_id" => "30001",
             "languages" => {
               "en_us" => "Group not found.",
-              "zh_cn" => ""
+              "zh_cn" => "无法找到群组。"
             }
           },
           "opscode-chef-webui-groups-show-408" => {
             "message_id" => "30002",
             "languages" => {
               "en_us" => "Request timed out when attempting to view the group.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，尝试查看节点超时。"
             }
           },
           "opscode-chef-webui-groups-update-success" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "The group was updated successfully.",
-              "zh_cn" => ""
+              "zh_cn" => "成功更新群组。"
             }
           },
           "opscode-chef-webui-groups-update-failed-validation" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "The new group name contains illegal characters. The following characters are allowed: a-z, 0-9, _, -",
-              "zh_cn" => ""
+              "zh_cn" => "新群组名字中含有不支持的字符。系统支持的字符包括：a-z, 0-9, _, -。"
             }
           },
           "opscode-chef-webui-groups-update-403" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to modify this group.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限修改此群组。"
             }
           },
           "opscode-chef-webui-groups-update-404" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "Group not found.",
-              "zh_cn" => ""
+              "zh_cn" => "无法找到群组。"
             }
           },
           "opscode-chef-webui-groups-update-408" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "Request timed out when attempting to modify the group.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，尝试修改此群组超时。"
             }
           },
           "opscode-chef-webui-groups-update-409" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "The new name of the group conflicts with another existing group.",
-              "zh_cn" => ""
+              "zh_cn" => "同名群组已存在。"
             }
           },
           "opscode-chef-webui-groups-create-success" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "The group was created successfully.",
-              "zh_cn" => ""
+              "zh_cn" => "成功创建群组。"
             }
           },
           "opscode-chef-webui-groups-create-403" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to create a group in this organization.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限在此组织创建新的群组。"
             }
           },
           "opscode-chef-webui-groups-create-408" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "Request timed out when attempting to create a new group.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，尝试创建新群组超时。"
             }
           },
           "opscode-chef-webui-groups-create-409" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "A group with that name already exists.",
-              "zh_cn" => ""
+              "zh_cn" => "同名群组已存在。"
             }
           },
           "opscode-chef-webui-groups-create-failed-validation" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "The new group name contains illegal characters. The following characters are allowed: a-z, 0-9, _, -",
-              "zh_cn" => ""
+              "zh_cn" => "新群组名字中含有不支持的字符。系统支持的字符包括：a-z, 0-9, _, -。"
             }
           },
           "opscode-chef-webui-groups-destroy-default-groups" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "Deleting the following groups is prohibited: admins, users, and clients.",
-              "zh_cn" => ""
+              "zh_cn" => "无法删除系统内建群组：admins，users，和clients。"
             }
           },
           "opscode-chef-webui-groups-destroy-403" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to delete this group.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限删除此群组。"
             }
           },
           "opscode-chef-webui-groups-destroy-404" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "Group not found.",
-              "zh_cn" => ""
+              "zh_cn" => "无法找到群组。"
             }
           },
           "opscode-chef-webui-groups-destroy-408" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "Request timed out when attempting to delete this group.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，尝试删除此群组超时。"
             }
           },
           "opscode-chef-webui-groups-destroy-success" => {
+		  
             "message_id" => "20000",
             "languages" => {
               "en_us" => "The group was deleted successfully.",
-              "zh_cn" => ""
+              "zh_cn" => "成功删除群组。"
             }
           },
           "opscode-chef-webui-groups-destroy-confirm" => {
             "message_id" => "10015",
             "languages" => {
               "en_us" => "Please confirm that you would like to delete this group.",
-              "zh_cn" => ""
+              "zh_cn" => "请确认您希望删除此群组。"
             }
           },
           "opscode-chef-webui-groups-acl-set" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "Failed to set permissions on this group.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，更新此群组的权限设置失败。"
             }
           },
           "opscode-chef-webui-groups-container-acl-get-403" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to read the permissions on the groups collection in this organization.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限读取此组织的群组集合的权限设置。"
             }
           },
           "opscode-chef-webui-groups-container-acl-get-408" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "Request timed out when attempting to read the permissions on the groups collection in this organization.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，尝试读取此组织的群组集合的权限设置超时。"
             }
           },
           "opscode-chef-webui-groups-container-acl-set" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "Failed to set permissions on the groups collection in this organization.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，更新此组织的群组集合的权限设置失败。"
             }
           },
           "opscode-chef-webui-groups-acl-get-403" => {
             "message_id" => "10002",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to read the permissions on this group.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限读取此群组的权限设置。"
             }
           },
           "opscode-chef-webui-groups-acl-get-408" => {
             "message_id" => "10002",
             "languages" => {
               "en_us" => "Request timed out when attempting to read the permissions on this group.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，尝试读取群组的权限设置超时"
             }
           },
           "opscode-chef-webui-cookbooks-index-403" => {
@@ -609,445 +610,459 @@ module Mixlib
               "zh_cn" => ""
             }
           },
-          "opscode-chef-webui-roles-show-403" => {
+		            "opscode-chef-webui-roles-show-403" => {
             "message_id" => "10000",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to view the role.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限访问此角色。"
             }
           },
           "opscode-chef-webui-roles-show-404" => {
             "message_id" => "10001",
             "languages" => {
-              "en_us" => "Role not found.",
-              "zh_cn" => ""
+              "en_us" => "role not found.",
+              "zh_cn" => "无法找到角色。"
             }
           },
           "opscode-chef-webui-roles-show-408" => {
             "message_id" => "10000",
             "languages" => {
               "en_us" => "Request timed out when attempting to view the role.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，尝试查看角色超时。"
             }
           },
           "opscode-chef-webui-roles-acl-get-403" => {
             "message_id" => "10002",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to read the permissions on this role.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限读取此角色的权限设置。"
             }
           },
           "opscode-chef-webui-roles-acl-get-408" => {
             "message_id" => "10002",
             "languages" => {
               "en_us" => "Request timed out when attempting to read the permissions on this role.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，尝试读取角色的权限设置超时。"
             }
           },
           "opscode-chef-webui-roles-acl-set" => {
             "message_id" => "10003",
             "languages" => {
               "en_us" => "Failed to set permissions on this role.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，更新此角色的权限设置失败。"
             }
           },
           "opscode-chef-webui-roles-container-acl-get-403" => {
             "message_id" => "10004",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to read the permissions on the roles collection in this organization.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限读取此组织的角色集合的权限设置。"
             }
           },
           "opscode-chef-webui-roles-container-acl-get-408" => {
             "message_id" => "10004",
             "languages" => {
               "en_us" => "Request timed out when attempting to read the permissions on the roles collection in this organization.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，尝试读取此组织的角色集合的权限设置超时。"
             }
           },
           "opscode-chef-webui-roles-container-acl-set" => {
             "message_id" => "10005",
             "languages" => {
               "en_us" => "Failed to set permissions on the roles collection in this organization.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，更新此组织的角色集合的权限设置失败。"
             }
           },
           "opscode-chef-webui-roles-index-403" => {
             "message_id" => "10006",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to list the roles in this organization.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限查看此组织的角色列表。"
             }
           },
           "opscode-chef-webui-roles-index-408" => {
             "message_id" => "10006",
             "languages" => {
               "en_us" => "Request timed out when attempting to retrieve the list of roles in this organization.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，尝试读取此组织的角色列表超时。"
             }
           },
           "opscode-chef-webui-roles-new-403" => {
             "message_id" => "10007",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to view roles and recipes in this organization. These objects are required to display the new role form.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限查看此组织的角色和菜谱，而显示新角色表单需要这些权限。"
             }
           },
           "opscode-chef-webui-roles-new-408" => {
             "message_id" => "10007",
             "languages" => {
-              "en_us" => "Request timed out when attempting to display the new node form. ",
-              "zh_cn" => ""
+              "en_us" => "Request timed out when attempting to display the new role form.",
+              "zh_cn" => "对不起，尝试显示新角色表单超时。"
             }
           },
           "opscode-chef-webui-roles-edit-404" => {
             "message_id" => "10008",
             "languages" => {
-              "en_us" => "Role not found.",
-              "zh_cn" => ""
+              "en_us" => "role not found.",
+              "zh_cn" => "无法找到角色。"
             }
           },
           "opscode-chef-webui-roles-edit-403" => {
             "message_id" => "10008",
             "languages" => {
-              "en_us" => "Permission denied. You do not have permission to read this role or to list the roles in this organization. These rights are required to display the role edit form. ",
-              "zh_cn" => ""
+              "en_us" => "Permission denied. You do not have permission to read this role or to list the roles in this organization. These rights are required to display the role edit form.",
+              "zh_cn" => "对不起，您没有权限读取此角色或角色列表，而显示编辑角色表单需要这些权限。"
             }
           },
           "opscode-chef-webui-roles-edit-408" => {
             "message_id" => "10008",
             "languages" => {
               "en_us" => "Request timed out when attempting to read the role or to list the organization's roles.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，尝试读取此角色或角色列表超时。"
             }
           },
           "opscode-chef-webui-roles-create-success" => {
             "message_id" => "10009",
             "languages" => {
-              "en_us" => "The role was created successfully. ",
-              "zh_cn" => ""
+              "en_us" => "The role was created successfully.",
+              "zh_cn" => "成功创建角色。"
             }
           },
           "opscode-chef-webui-roles-create-failed-validation" => {
             "message_id" => "10009",
             "languages" => {
               "en_us" => "The new role is not formed correctly. Check for illegal characters in the role's name or body, and check that the body is formed correctly.",
-              "zh_cn" => ""
+              "zh_cn" => "新角色名字或内容中含有不支持的字符，或角色的结构不正确。"
             }
           },
           "opscode-chef-webui-roles-create-409" => {
             "message_id" => "10010",
             "languages" => {
               "en_us" => "A role with that name already exists.",
-              "zh_cn" => ""
+              "zh_cn" => "同名角色已存在。"
             }
           },
           "opscode-chef-webui-roles-create-403" => {
             "message_id" => "10011",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to create a role in this organization.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限在此组织创建新的角色。"
             }
           },
           "opscode-chef-webui-roles-create-408" => {
             "message_id" => "10011",
             "languages" => {
               "en_us" => "Request timed out when attempting to create a new role.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，尝试创建新角色超时。"
             }
           },
           "opscode-chef-webui-roles-update-success" => {
             "message_id" => "10009",
             "languages" => {
               "en_us" => "The role was updated successfully.",
-              "zh_cn" => ""
+              "zh_cn" => "成功更新角色。"
+            }
+          },
+          "opscode-chef-webui-roles-update-failed-validation" => {
+            "message_id" => "10009",
+            "languages" => {
+              "en_us" => "The new role is not formed correctly. Check for illegal characters in the role's name or body, and check that the body is formed correctly.",
+              "zh_cn" => "新角色名字或内容中含有不支持的字符，或角色的结构不正确。"
             }
           },
           "opscode-chef-webui-roles-update-403" => {
             "message_id" => "10012",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to modify this role.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限修改此角色。"
             }
           },
           "opscode-chef-webui-roles-update-408" => {
             "message_id" => "10013",
             "languages" => {
               "en_us" => "Request timed out when attempting to modify the role.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，尝试修改此角色超时。"
             }
           },
           "opscode-chef-webui-roles-update-409" => {
             "message_id" => "10013",
             "languages" => {
               "en_us" => "The new name of the role conflicts with another existing role.",
-              "zh_cn" => ""
+              "zh_cn" => "同名角色已存在。"
             }
           },
           "opscode-chef-webui-roles-update-404" => {
             "message_id" => "10014",
             "languages" => {
-              "en_us" => "Role not found.",
-              "zh_cn" => ""
+              "en_us" => "role not found.",
+              "zh_cn" => "无法找到角色。"
             }
           },
           "opscode-chef-webui-roles-destroy-success" => {
             "message_id" => "10015",
             "languages" => {
               "en_us" => "The role was deleted successfully.",
-              "zh_cn" => ""
-            }
-          },
-          "opscode-chef-webui-roles-destroy-404" => {
-            "message_id" => "10015",
-            "languages" => {
-              "en_us" => "Role not found.",
-              "zh_cn" => ""
-            }
-          },
-          "opscode-chef-webui-roles-destroy-403" => {
-            "message_id" => "10015",
-            "languages" => {
-              "en_us" => "Permission denied. You do not have permission to delete this role.",
-              "zh_cn" => ""
-            }
-          },
-          "opscode-chef-webui-roles-destroy-408" => {
-            "message_id" => "10015",
-            "languages" => {
-              "en_us" => "Request timed out when attempting to delete the role.",
-              "zh_cn" => ""
+              "zh_cn" => "成功删除角色。"
             }
           },
           "opscode-chef-webui-roles-destroy-confirm" => {
             "message_id" => "10015",
             "languages" => {
               "en_us" => "Please confirm that you would like to delete this role.",
-              "zh_cn" => ""
+              "zh_cn" => "请确认您希望删除此角色。"
             }
           },
-          "opscode-chef-webui-databags-show-403" => {
+          "opscode-chef-webui-roles-destroy-404" => {
+            "message_id" => "10015",
+            "languages" => {
+              "en_us" => "role not found.",
+              "zh_cn" => "无法找到角色。"
+            }
+          },
+          "opscode-chef-webui-roles-destroy-403" => {
+            "message_id" => "10015",
+            "languages" => {
+              "en_us" => "Permission denied. You do not have permission to delete this role.",
+              "zh_cn" => "对不起，您无权删除此角色。"
+            }
+          },
+          "opscode-chef-webui-role-destroy-408" => {
+            "message_id" => "10015",
+            "languages" => {
+              "en_us" => "Request timed out when attempting to delete this role.",
+              "zh_cn" => "对不起，尝试删除此角色超时。"
+            }
+          },
+		            "opscode-chef-webui-databags-show-403" => {
             "message_id" => "10000",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to view the databag.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限访问此数据包。"
             }
           },
           "opscode-chef-webui-databags-show-404" => {
             "message_id" => "10001",
             "languages" => {
-              "en_us" => "Databag not found.",
-              "zh_cn" => ""
+              "en_us" => "databag not found.",
+              "zh_cn" => "无法找到数据包。"
             }
           },
           "opscode-chef-webui-databags-show-408" => {
             "message_id" => "10000",
             "languages" => {
               "en_us" => "Request timed out when attempting to view the databag.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，尝试查看数据包超时。"
             }
           },
           "opscode-chef-webui-databags-acl-get-403" => {
             "message_id" => "10002",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to read the permissions on this databag.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限读取此数据包的权限设置。"
             }
           },
           "opscode-chef-webui-databags-acl-get-408" => {
             "message_id" => "10002",
             "languages" => {
               "en_us" => "Request timed out when attempting to read the permissions on this databag.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，尝试读取数据包的权限设置超时。"
             }
           },
           "opscode-chef-webui-databags-acl-set" => {
             "message_id" => "10003",
             "languages" => {
               "en_us" => "Failed to set permissions on this databag.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，更新此数据包的权限设置失败。"
             }
           },
           "opscode-chef-webui-databags-container-acl-get-403" => {
             "message_id" => "10004",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to read the permissions on the databags collection in this organization.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限读取此组织的数据包集合的权限设置。"
             }
           },
           "opscode-chef-webui-databags-container-acl-get-408" => {
             "message_id" => "10004",
             "languages" => {
               "en_us" => "Request timed out when attempting to read the permissions on the databags collection in this organization.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，尝试读取此组织的数据包集合的权限设置超时。"
             }
           },
           "opscode-chef-webui-databags-container-acl-set" => {
             "message_id" => "10005",
             "languages" => {
               "en_us" => "Failed to set permissions on the databags collection in this organization.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，更新此组织的数据包集合的权限设置失败。"
             }
           },
           "opscode-chef-webui-databags-index-403" => {
             "message_id" => "10006",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to list the databags in this organization.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限查看此组织的数据包列表。"
             }
           },
           "opscode-chef-webui-databags-index-408" => {
             "message_id" => "10006",
             "languages" => {
               "en_us" => "Request timed out when attempting to retrieve the list of databags in this organization.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，尝试读取此组织的数据包列表超时。"
             }
           },
           "opscode-chef-webui-databags-new-403" => {
             "message_id" => "10007",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to view databags and recipes in this organization. These objects are required to display the new databag form.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限查看此组织的数据包和菜谱，而显示新数据包表单需要这些权限。"
             }
           },
           "opscode-chef-webui-databags-new-408" => {
             "message_id" => "10007",
             "languages" => {
-              "en_us" => "Request timed out when attempting to display the new node form. ",
-              "zh_cn" => ""
+              "en_us" => "Request timed out when attempting to display the new databag form.",
+              "zh_cn" => "对不起，尝试显示新数据包表单超时。"
             }
           },
           "opscode-chef-webui-databags-edit-404" => {
             "message_id" => "10008",
             "languages" => {
-              "en_us" => "Databag not found.",
-              "zh_cn" => ""
+              "en_us" => "databag not found.",
+              "zh_cn" => "无法找到数据包。"
             }
           },
           "opscode-chef-webui-databags-edit-403" => {
             "message_id" => "10008",
             "languages" => {
-              "en_us" => "Permission denied. You do not have permission to read this databag or to list the databags in this organization. These rights are required to display the databag edit form. ",
-              "zh_cn" => ""
+              "en_us" => "Permission denied. You do not have permission to read this databag or to list the databags in this organization. These rights are required to display the databag edit form.",
+              "zh_cn" => "对不起，您没有权限读取此数据包或数据包列表，而显示编辑数据包表单需要这些权限。"
             }
           },
           "opscode-chef-webui-databags-edit-408" => {
             "message_id" => "10008",
             "languages" => {
               "en_us" => "Request timed out when attempting to read the databag or to list the organization's databags.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，尝试读取此数据包或数据包列表超时。"
             }
           },
           "opscode-chef-webui-databags-create-success" => {
             "message_id" => "10009",
             "languages" => {
-              "en_us" => "The databag was created successfully. ",
-              "zh_cn" => ""
+              "en_us" => "The databag was created successfully.",
+              "zh_cn" => "成功创建数据包。"
             }
           },
           "opscode-chef-webui-databags-create-failed-validation" => {
             "message_id" => "10009",
             "languages" => {
               "en_us" => "The new databag is not formed correctly. Check for illegal characters in the databag's name or body, and check that the body is formed correctly.",
-              "zh_cn" => ""
+              "zh_cn" => "新数据包名字或内容中含有不支持的字符，或数据包的结构不正确。"
             }
           },
           "opscode-chef-webui-databags-create-409" => {
             "message_id" => "10010",
             "languages" => {
               "en_us" => "A databag with that name already exists.",
-              "zh_cn" => ""
+              "zh_cn" => "同名数据包已存在。"
             }
           },
           "opscode-chef-webui-databags-create-403" => {
             "message_id" => "10011",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to create a databag in this organization.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限在此组织创建新的数据包。"
             }
           },
           "opscode-chef-webui-databags-create-408" => {
             "message_id" => "10011",
             "languages" => {
               "en_us" => "Request timed out when attempting to create a new databag.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，尝试创建新数据包超时。"
             }
           },
           "opscode-chef-webui-databags-update-success" => {
             "message_id" => "10009",
             "languages" => {
               "en_us" => "The databag was updated successfully.",
-              "zh_cn" => ""
+              "zh_cn" => "成功更新数据包。"
+            }
+          },
+          "opscode-chef-webui-databags-update-failed-validation" => {
+            "message_id" => "10009",
+            "languages" => {
+              "en_us" => "The new databag is not formed correctly. Check for illegal characters in the databag's name or body, and check that the body is formed correctly.",
+              "zh_cn" => "新数据包名字或内容中含有不支持的字符，或数据包的结构不正确。"
             }
           },
           "opscode-chef-webui-databags-update-403" => {
             "message_id" => "10012",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to modify this databag.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限修改此数据包。"
             }
           },
           "opscode-chef-webui-databags-update-408" => {
             "message_id" => "10013",
             "languages" => {
               "en_us" => "Request timed out when attempting to modify the databag.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，尝试修改此数据包超时。"
             }
           },
           "opscode-chef-webui-databags-update-409" => {
             "message_id" => "10013",
             "languages" => {
               "en_us" => "The new name of the databag conflicts with another existing databag.",
-              "zh_cn" => ""
+              "zh_cn" => "同名数据包已存在。"
             }
           },
           "opscode-chef-webui-databags-update-404" => {
             "message_id" => "10014",
             "languages" => {
-              "en_us" => "Databag not found.",
-              "zh_cn" => ""
+              "en_us" => "databag not found.",
+              "zh_cn" => "无法找到数据包。"
             }
           },
           "opscode-chef-webui-databags-destroy-success" => {
             "message_id" => "10015",
             "languages" => {
               "en_us" => "The databag was deleted successfully.",
-              "zh_cn" => ""
-            }
-          },
-          "opscode-chef-webui-databags-destroy-404" => {
-            "message_id" => "10015",
-            "languages" => {
-              "en_us" => "Databag not found.",
-              "zh_cn" => ""
-            }
-          },
-          "opscode-chef-webui-databags-destroy-403" => {
-            "message_id" => "10015",
-            "languages" => {
-              "en_us" => "Permission denied. You do not have permission to delete this databag.",
-              "zh_cn" => ""
-            }
-          },
-          "opscode-chef-webui-databags-destroy-408" => {
-            "message_id" => "10015",
-            "languages" => {
-              "en_us" => "Request timed out when attempting to delete the databag.",
-              "zh_cn" => ""
+              "zh_cn" => "成功删除数据包。"
             }
           },
           "opscode-chef-webui-databags-destroy-confirm" => {
             "message_id" => "10015",
             "languages" => {
               "en_us" => "Please confirm that you would like to delete this databag.",
-              "zh_cn" => ""
+              "zh_cn" => "请确认您希望删除此数据包。"
+            }
+          },
+          "opscode-chef-webui-databags-destroy-404" => {
+            "message_id" => "10015",
+            "languages" => {
+              "en_us" => "databag not found.",
+              "zh_cn" => "无法找到数据包。"
+            }
+          },
+          "opscode-chef-webui-databags-destroy-403" => {
+            "message_id" => "10015",
+            "languages" => {
+              "en_us" => "Permission denied. You do not have permission to delete this databag.",
+              "zh_cn" => "对不起，您无权删除此数据包。"
+            }
+          },
+          "opscode-chef-webui-databag-destroy-408" => {
+            "message_id" => "10015",
+            "languages" => {
+              "en_us" => "Request timed out when attempting to delete this databag.",
+              "zh_cn" => "对不起，尝试删除此数据包超时。"
             }
           },
           "opscode-chef-webui-application-acl-set-success" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "The permissions were updated successfully.",
-              "zh_cn" => ""
+              "zh_cn" => "成功更新权限设置。"
             }
           }
         }
