@@ -144,7 +144,7 @@ module Mixlib
             "message_id" => "10007",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to view roles and recipes in this organization. These objects are required to display the new node form.",
-              "zh_cn" => "对不起，您没有权限查看此组织的角色和菜谱，而显示新节点表单需要这些权限。"
+              "zh_cn" => "对不起，您没有权限查看此组织的角色和配方单，而显示新节点表单需要这些权限。"
             }
           },
           "opscode-chef-webui-nodes-new-408" => {
@@ -537,80 +537,80 @@ module Mixlib
             "message_id" => "10002",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to list the cookbooks in this organization.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限查看此组织的食谱列表。"
             }
           },
           "opscode-chef-webui-cookbooks-index-408" => {
             "message_id" => "10002",
             "languages" => {
               "en_us" => "Request timed out when attempting to retrieve the list of cookbooks in this organization.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，尝试读取此组织的食谱列表超时。"
             }
           },
           "opscode-chef-webui-cookbooks-show-403" => {
             "message_id" => "10002",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to view the cookbook.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限查看此食谱。"
             }
           },
           "opscode-chef-webui-cookbooks-show-404" => {
             "message_id" => "10002",
             "languages" => {
               "en_us" => "Cookbook not found.",
-              "zh_cn" => ""
+              "zh_cn" => "无法找到食谱。"
             }
           },
           "opscode-chef-webui-cookbooks-show-408" => {
             "message_id" => "10002",
             "languages" => {
               "en_us" => "Request timed out when attempting to view the cookbook.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，尝试查看食谱超时。"
             }
           },
           "opscode-chef-webui-cookbooks-container-acl-get-403" => {
             "message_id" => "10002",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to read the permissions on the cookbooks collection in this organization.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限读取此组织的食谱集合的权限设置。"
             }
           },
           "opscode-chef-webui-cookbooks-container-acl-get-408" => {
             "message_id" => "10002",
             "languages" => {
               "en_us" => "Request timed out when attempting to read the permissions on the cookbooks collection in this organization.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，尝试读取此组织的食谱集合的权限设置超时。"
             }
           },
           "opscode-chef-webui-cookbooks-container-acl-set" => {
             "message_id" => "10002",
             "languages" => {
               "en_us" => "Failed to set permissions on the cookbooks collection in this organization.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起。更新此组织的食谱集合权限设置失败。"
             }
           },
           "opscode-chef-webui-cookbooks-acl-get-403" => {
             "message_id" => "10002",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to read the permissions on this cookbook.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限读取此食谱的权限设置。"
             }
           },
           "opscode-chef-webui-cookbooks-acl-get-408" => {
             "message_id" => "10002",
             "languages" => {
               "en_us" => "Request timed out when attempting to read the permissions on this cookbook.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，常试读去食谱的权限设置超时。"
             }
           },
           "opscode-chef-webui-cookbooks-acl-set" => {
             "message_id" => "10002",
             "languages" => {
               "en_us" => "Failed to set permissions on this cookbook.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，更新此食谱的权限设置失败。"
             }
           },
-		            "opscode-chef-webui-roles-show-403" => {
+		  "opscode-chef-webui-roles-show-403" => {
             "message_id" => "10000",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to view the role.",
@@ -691,7 +691,7 @@ module Mixlib
             "message_id" => "10007",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to view roles and recipes in this organization. These objects are required to display the new role form.",
-              "zh_cn" => "对不起，您没有权限查看此组织的角色和菜谱，而显示新角色表单需要这些权限。"
+              "zh_cn" => "对不起，您没有权限查看此组织的角色和配方单，而显示新角色表单需要这些权限。"
             }
           },
           "opscode-chef-webui-roles-new-408" => {
