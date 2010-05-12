@@ -1,0 +1,33 @@
+== Mixlib::Localization
+
+Mixlib::Localization::Messages
+
+==self.get_message(message_key, language_code)==
+
+Mixlib::Localization::Messages stores the error and informational messages and provide a public method get_message(message_key, language_code) to retrieve message id and the message in a specific language.
+
+For example, if you want to retrieve the error message for 'opscode-chef-webui-nodes-show-403' in English, do:
+
+get_message("opscode-chef-webui-nodes-show-403", "en_us")
+
+which returns:
+["10000", "You are not authorized to view this node."]
+
+If you need the error message in other languages, for example, Simplified Chinese, pass in the corresponding language code:
+
+get_message("opscode-chef-webui-nodes-show-403", "zh_cn")
+
+returns
+
+["10000", "对不起，您没有权限查看此节点。"]
+
+If you pass in a non-existent language code, it will use en_us.
+
+If you pass in a invalid error key, it will throw a Mixlib::Localization::MessageRetrievalError.
+
+==self.parse_error_message==
+
+self.parse_error_message takes the array returned from get_message, and generates a formatted error message.
+
+
+ 
