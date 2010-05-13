@@ -67,7 +67,7 @@ module Mixlib
             "message_id" => "10000",
             "languages" => {
               "en_us" => "Username and password do not match.",
-              "zh_cn" => ""
+              "zh_cn" => "用户名和密码不符。"
             }
           },
           "opscode-chef-webui-nodes-show-403" => {
@@ -312,119 +312,119 @@ module Mixlib
             "message_id" => "20000",
             "languages" => {
               "en_us" => "Organization not found.",
-              "zh_cn" => ""
+              "zh_cn" => "无法找到您指定的组织。"
             }
           },
           "opscode-chef-webui-users-index_invites-404" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "Organization not found.",
-              "zh_cn" => ""
+              "zh_cn" => "无法找到您指定的组织。"
             }
           },
           "opscode-chef-webui-users-index_invites-403" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to list the pending invites in this organization.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限查看此组织的邀请列表。"
             }
           },
           "opscode-chef-webui-users-show-404" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "User not found.",
-              "zh_cn" => ""
+              "zh_cn" => "无法找到用户。"
             }
           },  
           "opscode-chef-webui-users-show-403" => {
             "message_id" => "20000",
             "languages" => {
-              "en_us" => "Permission denied. You do not have permission to show this user's information.",
-              "zh_cn" => ""
+              "en_us" => "Permission denied. You do not have permission to view this user's information.",
+              "zh_cn" => "对不起，您没有权限访问此用户。"
             }
           },
           "opscode-chef-webui-users-update-success" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "The user profile was updated successfully.",
-              "zh_cn" => ""
+              "zh_cn" => "成功更新用户信息。"
             }
           },
           "opscode-chef-webui-users-update-404" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "User not found.",
-              "zh_cn" => ""
+              "zh_cn" => "无法找到用户。"
             }
           },
           "opscode-chef-webui-users-update-403" => {
             "message_id" => "20000",
             "languages" => {
-              "en_us" => "Permission denied. You do not have permission to update this user.",
-              "zh_cn" => ""
+              "en_us" => "Permission denied. You do not have permission to modify this user.",
+              "zh_cn" => "对不起，您没有权限修改此用户。"
             }
           },
           "opscode-chef-webui-users-delete-success" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "The user was deleted successfully.",
-              "zh_cn" => ""
+              "zh_cn" => "成功删除用户。"
             }
           },
           "opscode-chef-webui-users-delete-404" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "User not found.",
-              "zh_cn" => ""
+              "zh_cn" => "无法找到用户。"
             }
           },
           "opscode-chef-webui-users-delete-403" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to delete this user.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限删除此用户。"
             }
           },
           "opscode-chef-webui-users-dissociate-success" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "The user was dissociated successfully.",
-              "zh_cn" => ""
+              "zh_cn" => "成功关联用户。"
             }
           },
           "opscode-chef-webui-users-dissociate-404" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "User not found.",
-              "zh_cn" => ""
+              "zh_cn" => "无法找到用户。"
             }
           },
           "opscode-chef-webui-users-dissociate-403" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to dissociate this user.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限取消此用户和此组织的关联。"
             }
           },
           "opscode-chef-webui-users-rescind_invite-success" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "Successfully rescinded invitation to user.",
-              "zh_cn" => ""
+              "zh_cn" => "成功撤销对用户发出的邀请。"
             }
           },
           "opscode-chef-webui-users-rescind_invite-404" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "Invitation not found.",
-              "zh_cn" => ""
+              "zh_cn" => "无法找到邀请。"
             }
           },
           "opscode-chef-webui-users-rescind_invite-404" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to rescind this invitation.",
-              "zh_cn" => ""
+              "zh_cn" => "对不起，您没有权限撤销此邀请。"
             }
           },
           "opscode-chef-webui-clients-index-403" => {
@@ -1495,28 +1495,28 @@ module Mixlib
             "message_id" => "20000",
             "languages" => {
               "en_us" => "You are already logged in.",
-              "zh_cn" => ""
+              "zh_cn" => "您已经登录。"
             }
           },
           "opscode-chef-webui-status-500" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "Could not list status.",
-              "zh_cn" => ""
+              "zh_cn" => "无法显示节点状态列表。"
             }
           },
           "opscode-chef-webui-search-index-500" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "Could not list search indexes.",
-              "zh_cn" => ""
+              "zh_cn" => "无法显示搜索索引列表。"
             }
           },
           "opscode-chef-webui-search-show-500" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "Could not complete the search.",
-              "zh_cn" => ""
+              "zh_cn" => "无法完成搜索。"
             }
           }
         }
