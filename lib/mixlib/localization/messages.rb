@@ -1019,225 +1019,344 @@ module Mixlib
 		  "opscode-chef-webui-databags-show-403" => {
             "message_id" => "10000",
             "languages" => {
-              "en_us" => "Permission denied. You do not have permission to view the databag.",
+              "en_us" => "Permission denied. You do not have permission to view the data bag.",
               "zh_cn" => "对不起，您没有权限访问此数据包。"
             }
           },
           "opscode-chef-webui-databags-show-404" => {
             "message_id" => "10001",
             "languages" => {
-              "en_us" => "databag not found.",
+              "en_us" => "Data bag not found.",
               "zh_cn" => "无法找到数据包。"
             }
           },
           "opscode-chef-webui-databags-show-408" => {
             "message_id" => "10000",
             "languages" => {
-              "en_us" => "Request timed out when attempting to view the databag.",
+              "en_us" => "Request timed out when attempting to view the data bag.",
               "zh_cn" => "对不起，尝试查看数据包超时。"
             }
           },
           "opscode-chef-webui-databags-acl-get-403" => {
             "message_id" => "10002",
             "languages" => {
-              "en_us" => "Permission denied. You do not have permission to read the permissions on this databag.",
+              "en_us" => "Permission denied. You do not have permission to read the permissions on this data bag.",
               "zh_cn" => "对不起，您没有权限读取此数据包的权限设置。"
             }
           },
           "opscode-chef-webui-databags-acl-get-408" => {
             "message_id" => "10002",
             "languages" => {
-              "en_us" => "Request timed out when attempting to read the permissions on this databag.",
+              "en_us" => "Request timed out when attempting to read the permissions on this data bag.",
               "zh_cn" => "对不起，尝试读取数据包的权限设置超时。"
             }
           },
           "opscode-chef-webui-databags-acl-set" => {
             "message_id" => "10003",
             "languages" => {
-              "en_us" => "Failed to set permissions on this databag.",
+              "en_us" => "Failed to set permissions on this data bag.",
               "zh_cn" => "对不起，更新此数据包的权限设置失败。"
             }
           },
           "opscode-chef-webui-databags-container-acl-get-403" => {
             "message_id" => "10004",
             "languages" => {
-              "en_us" => "Permission denied. You do not have permission to read the permissions on the databags collection in this organization.",
+              "en_us" => "Permission denied. You do not have permission to read the permissions on the data bags collection in this organization.",
               "zh_cn" => "对不起，您没有权限读取此组织的数据包集合的权限设置。"
             }
           },
           "opscode-chef-webui-databags-container-acl-get-408" => {
             "message_id" => "10004",
             "languages" => {
-              "en_us" => "Request timed out when attempting to read the permissions on the databags collection in this organization.",
+              "en_us" => "Request timed out when attempting to read the permissions on the data bags collection in this organization.",
               "zh_cn" => "对不起，尝试读取此组织的数据包集合的权限设置超时。"
             }
           },
           "opscode-chef-webui-databags-container-acl-set" => {
             "message_id" => "10005",
             "languages" => {
-              "en_us" => "Failed to set permissions on the databags collection in this organization.",
+              "en_us" => "Failed to set permissions on the data bags collection in this organization.",
               "zh_cn" => "对不起，更新此组织的数据包集合的权限设置失败。"
             }
           },
           "opscode-chef-webui-databags-index-403" => {
             "message_id" => "10006",
             "languages" => {
-              "en_us" => "Permission denied. You do not have permission to list the databags in this organization.",
+              "en_us" => "Permission denied. You do not have permission to list the data bags in this organization.",
               "zh_cn" => "对不起，您没有权限查看此组织的数据包列表。"
             }
           },
           "opscode-chef-webui-databags-index-408" => {
             "message_id" => "10006",
             "languages" => {
-              "en_us" => "Request timed out when attempting to retrieve the list of databags in this organization.",
+              "en_us" => "Request timed out when attempting to retrieve the list of data bags in this organization.",
               "zh_cn" => "对不起，尝试读取此组织的数据包列表超时。"
             }
           },
           "opscode-chef-webui-databags-new-403" => {
             "message_id" => "10007",
             "languages" => {
-              "en_us" => "Permission denied. You do not have permission to view databags and recipes in this organization. These objects are required to display the new databag form.",
+              "en_us" => "Permission denied. You do not have permission to view data bags and recipes in this organization. These objects are required to display the new data bag form.",
               "zh_cn" => "对不起，您没有权限查看此组织的数据包和菜谱，而显示新数据包表单需要这些权限。"
             }
           },
           "opscode-chef-webui-databags-new-408" => {
             "message_id" => "10007",
             "languages" => {
-              "en_us" => "Request timed out when attempting to display the new databag form.",
+              "en_us" => "Request timed out when attempting to display the new data bag form.",
               "zh_cn" => "对不起，尝试显示新数据包表单超时。"
             }
           },
           "opscode-chef-webui-databags-edit-404" => {
             "message_id" => "10008",
             "languages" => {
-              "en_us" => "databag not found.",
+              "en_us" => "Data bag not found.",
               "zh_cn" => "无法找到数据包。"
             }
           },
           "opscode-chef-webui-databags-edit-403" => {
             "message_id" => "10008",
             "languages" => {
-              "en_us" => "Permission denied. You do not have permission to read this databag or to list the databags in this organization. These rights are required to display the databag edit form.",
+              "en_us" => "Permission denied. You do not have permission to read this data bag or to list the data bags in this organization. These rights are required to display the data bag edit form.",
               "zh_cn" => "对不起，您没有权限读取此数据包或数据包列表，而显示编辑数据包表单需要这些权限。"
             }
           },
           "opscode-chef-webui-databags-edit-408" => {
             "message_id" => "10008",
             "languages" => {
-              "en_us" => "Request timed out when attempting to read the databag or to list the organization's databags.",
+              "en_us" => "Request timed out when attempting to read the data bag or to list the organization's data bags.",
               "zh_cn" => "对不起，尝试读取此数据包或数据包列表超时。"
             }
           },
           "opscode-chef-webui-databags-create-success" => {
             "message_id" => "10009",
             "languages" => {
-              "en_us" => "The databag was created successfully.",
+              "en_us" => "The data bag was created successfully.",
               "zh_cn" => "成功创建数据包。"
             }
           },
           "opscode-chef-webui-databags-create-failed-validation" => {
             "message_id" => "10009",
             "languages" => {
-              "en_us" => "The new databag is not formed correctly. Check for illegal characters in the databag's name or body, and check that the body is formed correctly.",
+              "en_us" => "The new data bag is not formed correctly. Check for illegal characters in the data bag's name or body, and check that the body is formed correctly.",
               "zh_cn" => "新数据包名字或内容中含有不支持的字符，或数据包的结构不正确。"
             }
           },
           "opscode-chef-webui-databags-create-409" => {
             "message_id" => "10010",
             "languages" => {
-              "en_us" => "A databag with that name already exists.",
+              "en_us" => "A data bag with that name already exists.",
               "zh_cn" => "同名数据包已存在。"
             }
           },
           "opscode-chef-webui-databags-create-403" => {
             "message_id" => "10011",
             "languages" => {
-              "en_us" => "Permission denied. You do not have permission to create a databag in this organization.",
+              "en_us" => "Permission denied. You do not have permission to create a data bag in this organization.",
               "zh_cn" => "对不起，您没有权限在此组织创建新的数据包。"
             }
           },
           "opscode-chef-webui-databags-create-408" => {
             "message_id" => "10011",
             "languages" => {
-              "en_us" => "Request timed out when attempting to create a new databag.",
+              "en_us" => "Request timed out when attempting to create a new data bag.",
               "zh_cn" => "对不起，尝试创建新数据包超时。"
             }
           },
           "opscode-chef-webui-databags-update-success" => {
             "message_id" => "10009",
             "languages" => {
-              "en_us" => "The databag was updated successfully.",
+              "en_us" => "The data bag was updated successfully.",
               "zh_cn" => "成功更新数据包。"
             }
           },
           "opscode-chef-webui-databags-update-failed-validation" => {
             "message_id" => "10009",
             "languages" => {
-              "en_us" => "The new databag is not formed correctly. Check for illegal characters in the databag's name or body, and check that the body is formed correctly.",
+              "en_us" => "The new data bag is not formed correctly. Check for illegal characters in the data bag's name or body, and check that the body is formed correctly.",
               "zh_cn" => "新数据包名字或内容中含有不支持的字符，或数据包的结构不正确。"
             }
           },
           "opscode-chef-webui-databags-update-403" => {
             "message_id" => "10012",
             "languages" => {
-              "en_us" => "Permission denied. You do not have permission to modify this databag.",
+              "en_us" => "Permission denied. You do not have permission to modify this data bag.",
               "zh_cn" => "对不起，您没有权限修改此数据包。"
             }
           },
           "opscode-chef-webui-databags-update-408" => {
             "message_id" => "10013",
             "languages" => {
-              "en_us" => "Request timed out when attempting to modify the databag.",
+              "en_us" => "Request timed out when attempting to modify the data bag.",
               "zh_cn" => "对不起，尝试修改此数据包超时。"
             }
           },
           "opscode-chef-webui-databags-update-409" => {
             "message_id" => "10013",
             "languages" => {
-              "en_us" => "The new name of the databag conflicts with another existing databag.",
+              "en_us" => "The new name of the data bag conflicts with another existing data bag.",
               "zh_cn" => "同名数据包已存在。"
             }
           },
           "opscode-chef-webui-databags-update-404" => {
             "message_id" => "10014",
             "languages" => {
-              "en_us" => "databag not found.",
+              "en_us" => "data bag not found.",
               "zh_cn" => "无法找到数据包。"
             }
           },
           "opscode-chef-webui-databags-destroy-success" => {
             "message_id" => "10015",
             "languages" => {
-              "en_us" => "The databag was deleted successfully.",
+              "en_us" => "The data bag was deleted successfully.",
               "zh_cn" => "成功删除数据包。"
             }
           },
           "opscode-chef-webui-databags-destroy-confirm" => {
             "message_id" => "10015",
             "languages" => {
-              "en_us" => "Please confirm that you would like to delete this databag.",
+              "en_us" => "Please confirm that you would like to delete this data bag.",
               "zh_cn" => "请确认您希望删除此数据包。"
             }
           },
           "opscode-chef-webui-databags-destroy-404" => {
             "message_id" => "10015",
             "languages" => {
-              "en_us" => "databag not found.",
+              "en_us" => "Data bag not found.",
               "zh_cn" => "无法找到数据包。"
             }
           },
           "opscode-chef-webui-databags-destroy-403" => {
             "message_id" => "10015",
             "languages" => {
-              "en_us" => "Permission denied. You do not have permission to delete this databag.",
+              "en_us" => "Permission denied. You do not have permission to delete this data bag.",
               "zh_cn" => "对不起，您无权删除此数据包。"
             }
           },
           "opscode-chef-webui-databag-destroy-408" => {
             "message_id" => "10015",
             "languages" => {
-              "en_us" => "Request timed out when attempting to delete this databag.",
+              "en_us" => "Request timed out when attempting to delete this data bag.",
               "zh_cn" => "对不起，尝试删除此数据包超时。"
+            }
+          },
+		  "opscode-chef-webui-databagitems-edit-403" => {
+            "message_id" => "10015",
+            "languages" => {
+              "en_us" => "Permission denied. You do not have permission to read this data bag item or its data bag.",
+              "zh_cn" => "对不起，您没有权限读取此数据包项或包含它的数据包。"
+            }
+          },
+		  "opscode-chef-webui-databagitems-edit-404" => {
+            "message_id" => "20002",
+            "languages" => {
+              "en_us" => "Data bag item or its data bag not found.",
+              "zh_cn" => "无法找到数据包项或包含它的数据包。"
+            }
+          },
+		  "opscode-chef-webui-databagitems-update-success" => {
+            "message_id" => "20000",
+            "languages" => {
+              "en_us" => "The data bag item was updated successfully.",
+              "zh_cn" => "成功更新数据包项。"
+            }
+          },
+          "opscode-chef-webui-databagitems-update-failed-validation" => {
+            "message_id" => "20000",
+            "languages" => {
+              "en_us" => "The new data bag item id contains illegal characters. The following characters are allowed: a-z, A-Z, 0-9, _, -",
+              "zh_cn" => "新数据包项名字中含有不支持的字符。系统支持的字符包括：a-z, A-Z, 0-9, _, -。"
+            }
+          },
+          "opscode-chef-webui-databagitems-update-403" => {
+            "message_id" => "20000",
+            "languages" => {
+              "en_us" => "Permission denied. You do not have permission to modify this data bag item or its data bag.",
+              "zh_cn" => "对不起，您没有权限修改此数据包项或包含它的数据包。"
+            }
+          },
+          "opscode-chef-webui-databagitem-update-404" => {
+            "message_id" => "20000",
+            "languages" => {
+              "en_us" => "Data bag item or its data bag not found.",
+              "zh_cn" => "无法找到数据包项或包含它的数据包。"
+            }
+          },
+          "opscode-chef-webui-databagitems-update-409" => {
+            "message_id" => "20000",
+            "languages" => {
+              "en_us" => "The new id of the data bag item conflicts with another existing data bag item.",
+              "zh_cn" => "同名数据包项已存在。"
+            }
+          },
+		  "opscode-chef-webui-databagitems-create-success" => {
+            "message_id" => "10009",
+            "languages" => {
+              "en_us" => "The data bag item was created successfully.",
+              "zh_cn" => "成功创建数据包项。"
+            }
+          },
+		  "opscode-chef-webui-databagitems-create-failed-validation" => {
+            "message_id" => "10009",
+            "languages" => {
+              "en_us" => "The new data bag item is not formed correctly. Check for illegal characters in the data bag item's body, and check that the body is formed correctly.",
+              "zh_cn" => "新数据包项名字或内容中含有不支持的字符，或结构不正确。"
+            }
+          },
+          "opscode-chef-webui-databagitems-create-409" => {
+            "message_id" => "10010",
+            "languages" => {
+              "en_us" => "A data bag item with that id already exists.",
+              "zh_cn" => "同名数据包项已存在。"
+            }
+          },
+          "opscode-chef-webui-databagitems-create-403" => {
+            "message_id" => "10011",
+            "languages" => {
+              "en_us" => "Permission denied. You do not have permission to create a data bag item in this organization.",
+              "zh_cn" => "对不起，您没有权限在此组织创建新的数据包项。"
+            }
+          },
+		  "opscode-chef-webui-databagitems-show-404" => {
+            "message_id" => "10010",
+            "languages" => {
+              "en_us" => "Data bag item or its data bag not found.",
+              "zh_cn" => "无法找到数据包项或包含它的数据包。"
+            }
+          },
+          "opscode-chef-webui-databagitems-show-403" => {
+            "message_id" => "10011",
+            "languages" => {
+              "en_us" => "Permission denied. You do not have permission to view the data bag item or its data bag.",
+              "zh_cn" => "对不起，您没有权限在访问此数据包项或包含它的数据包。"
+            }
+          },
+		  "opscode-chef-webui-databagitems-destroy-404" => {
+            "message_id" => "10015",
+            "languages" => {
+              "en_us" => "Data bag item or its data bag not found.",
+              "zh_cn" => "无法找到数据包。"
+            }
+          },
+          "opscode-chef-webui-databagitems-destroy-403" => {
+            "message_id" => "10015",
+            "languages" => {
+              "en_us" => "Permission denied. You do not have permission to delete this data bag item or its data bag.",
+              "zh_cn" => "对不起，您无权删除此数据包项或包含它的数据包。"
+            }
+          },
+		  "opscode-chef-webui-databagitems-destroy-success" => {
+            "message_id" => "10015",
+            "languages" => {
+              "en_us" => "The data bag item was deleted successfully.",
+              "zh_cn" => "成功删除数据包项。"
+            }
+          },
+		  "opscode-chef-webui-databagitems-destroy-confirm" => {
+            "message_id" => "10015",
+            "languages" => {
+              "en_us" => "Please confirm that you would like to delete this data bag item.",
+              "zh_cn" => "请确认您希望删除此数据包项。"
             }
           },
           "opscode-chef-webui-application-acl-set-success" => {
