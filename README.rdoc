@@ -25,9 +25,17 @@ If you pass in a non-existent language code, it will use en_us.
 
 If you pass in a invalid error key, it will throw a Mixlib::Localization::MessageRetrievalError.
 
-==self.parse_error_message
+==self.parse_error_message(message_array)
 
 self.parse_error_message takes the array returned from get_message, and generates a formatted error message.
+
+For example, if you pass in ["10000", "You are not authorized to view this node."], the return value is "Error 10000: You are not authorized to view this node."
+
+==self.parse_info_message(message_array)
+
+self.parse_info_message takes the array returned from get_message, and returns only the message.
+
+For example, if you pass in ["10001", "The node was successfully created."], the return value is "The node was successfully created."
 
 ==self.generate_message_text_file(language, output_file)
 
