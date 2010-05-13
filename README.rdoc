@@ -40,3 +40,5 @@ For example, if you pass in ["10001", "The node was successfully created."], the
 ==self.generate_message_text_file(language, output_file)
 
 This method takes a language code and the path to the output_file and generates a text file with message ids, messages, and internal message keys.
+
+*rake generate_messages calls this method and produce a text file in the project's root directory.
