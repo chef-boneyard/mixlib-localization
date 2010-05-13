@@ -1713,7 +1713,23 @@ module Mixlib
               "en_us" => "Organization invite not found. It may have been rescinded.",
               "zh_cn" => "无法找到邀请，此邀请可能已被撤销。"
             }
-          }      
+          },
+          "opscode-chef-webui-organizations-invite-accept-forbidden" => {
+            "message_id" => "10006",
+            "languages" => {
+              # REVIEW
+              "en_us" => "Insufficient permission to accept this invite ",
+              "zh_cn" => ""
+            }
+          },   
+          "opscode-chef-webui-organizations-invite-reject-forbidden" => {
+            "message_id" => "10006",
+            "languages" => {
+              # REVIEW
+              "en_us" => "Insufficient permission to reject this invite ",
+              "zh_cn" => ""
+            }
+          },      
         }
       end
     end
