@@ -30,12 +30,24 @@ module Mixlib
       def self.parse_error_message(message_array)
         "Error #{message_array[0]}: #{message_array[1]}"
       end
+
+      # Convenience method combining get_message and parse_error_message
+      def self.get_parse_error_message(message_key, language_code)
+        self.parse_error_message(self.get_error_message(message_key, language_code))
+      end
+
       
       # Take what returns from self.get_message, and returns only the message.
       # Example: input: ["50000", "Successfully created node."], output: "Successfully created node."
       def self.parse_info_message(message_array)
         message_array[1]
       end
+
+      # Convenience method combining get_message and parse_error_message
+      def self.get_parse_info_message(message_key, language_code)
+        parse_error_message(get_info_message(message_key, language_code))
+      end
+
       
       # Generates a text file with message ids and the messages, Customer Service may use this file as a reference.
       # messages generated are not sorted (at least currently), but I don't see the need/benefits yet to make them sorted
@@ -1615,7 +1627,128 @@ module Mixlib
               "zh_cn" => ""
             }
           },
+          "opscode-chef-webui-organizations-associate-empty-user" => {
+            "message_id" => "10006",
+            "languages" => {
+              # REVIEW
+              "en_us" => "Usernames cannot be empty.",
+              "zh_cn" => ""
+            }
+          },
+          "opscode-chef-webui-organizations-associate-no-org" => {
+            "message_id" => "10006",
+            "languages" => {
+              # REVIEW
+              "en_us" => "Organization cannot be empty in the case no organization is currently selected to use.",
+              "zh_cn" => ""
+            }
+          },
+          "opscode-chef-webui-organizations-associate-success-list" => {
+            "message_id" => "10006",
+            "languages" => {
+              # REVIEW
+              "en_us" => "The following users were successfully invited: ",
+              "zh_cn" => ""
+            }
+          },
+          "opscode-chef-webui-organizations-associate-success-none" => {
+            "message_id" => "10006",
+            "languages" => {
+              # REVIEW
+              "en_us" => "No users were invited.",
+              "zh_cn" => ""
+            }
+          },
+          "opscode-chef-webui-organizations-associate-failed-user" => {
+            "message_id" => "10006",
+            "languages" => {
+              # REVIEW
+              "en_us" => "Could not invite: ",
+              "zh_cn" => ""
+            }
+          },
+          "opscode-chef-webui-organizations-associate-notify-email-subject" => {
+            "message_id" => "10006",
+            "languages" => {
+              # REVIEW
+              "en_us" => "You have been invited to join an Opscode organization",
+              "zh_cn" => ""
+            }
+          },
+           "opscode-chef-webui-organizations-associate-success" => {
+            "message_id" => "10006",
+            "languages" => {
+              # REVIEW
+              "en_us" => "Succesfully invited user(s) to the organization.",
+              "zh_cn" => ""
+            }
+          },
 
+          "opscode-chef-webui-organizations-associate-400" => {
+            "message_id" => "10006",
+            "languages" => {
+              # REVIEW
+              "en_us" => "The information you entered was invalid. Check that the Users and Organizations fields are not empty.",
+              "zh_cn" => ""
+            }
+          },
+          "opscode-chef-webui-organizations-associate-403" => {
+            "message_id" => "10006",
+            "languages" => {
+              # REVIEW
+              "en_us" => "You are not authorized to add this user to the organization.",
+              "zh_cn" => ""
+            }
+          },
+          "opscode-chef-webui-organizations-associate-404" => {
+            "message_id" => "10006",
+            "languages" => {
+              # REVIEW
+              "en_us" => "The user was not found.",
+              "zh_cn" => ""
+            }
+          },
+          "opscode-chef-webui-organizations-associate-409" => {
+            "message_id" => "10006",
+            "languages" => {
+              # REVIEW
+              "en_us" => "The user has a pending association request, or is already associated.",
+              "zh_cn" => ""
+            }
+          },
+
+          "opscode-chef-webui-organizations-invite-accept" => {
+            "message_id" => "10006",
+            "languages" => {
+              # REVIEW
+              "en_us" => "Successfully accepted organization invite",
+              "zh_cn" => ""
+            }
+          },          
+          "opscode-chef-webui-organizations-invite-accept-already" => {
+            "message_id" => "10006",
+            "languages" => {
+              # REVIEW
+              "en_us" => "Successfully accepted organization invite",
+              "zh_cn" => ""
+            }
+          },          
+          "opscode-chef-webui-organizations-invite-reject" => {
+            "message_id" => "10006",
+            "languages" => {
+              # REVIEW
+              "en_us" => "Successfully rejected organization invite",
+              "zh_cn" => ""
+            }
+          },
+          "opscode-chef-webui-organizations-invite-not-found" => {
+            "message_id" => "10006",
+            "languages" => {
+              # REVIEW
+              "en_us" => "The invite wasn't found.",
+              "zh_cn" => ""
+            }
+          }      
         }
       end
     end
