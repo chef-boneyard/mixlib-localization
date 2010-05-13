@@ -1504,6 +1504,20 @@ module Mixlib
               "en_us" => "Could not list status.",
               "zh_cn" => ""
             }
+          },
+          "opscode-chef-webui-search-index-500" => {
+            "message_id" => "20000",
+            "languages" => {
+              "en_us" => "Could not list search indexes.",
+              "zh_cn" => ""
+            }
+          },
+          "opscode-chef-webui-search-show-500" => {
+            "message_id" => "20000",
+            "languages" => {
+              "en_us" => "Could not complete the search.",
+              "zh_cn" => ""
+            }
           }
         }
       end
