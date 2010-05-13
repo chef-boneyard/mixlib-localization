@@ -1497,6 +1497,13 @@ module Mixlib
               "en_us" => "You are already logged in.",
               "zh_cn" => ""
             }
+          },
+          "opscode-chef-webui-status-500" => {
+            "message_id" => "20000",
+            "languages" => {
+              "en_us" => "Could not list status.",
+              "zh_cn" => ""
+            }
           }
         }
       end
