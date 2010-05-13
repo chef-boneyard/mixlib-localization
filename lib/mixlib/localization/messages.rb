@@ -1363,21 +1363,21 @@ module Mixlib
               "zh_cn" => "对不起，尝试删除此数据包超时。"
             }
           },
-		  "opscode-chef-webui-databagitems-edit-403" => {
+		      "opscode-chef-webui-databagitems-edit-403" => {
             "message_id" => "10015",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to read this data bag item or its data bag.",
               "zh_cn" => "对不起，您没有权限读取此数据包项或包含它的数据包。"
             }
           },
-		  "opscode-chef-webui-databagitems-edit-404" => {
+		      "opscode-chef-webui-databagitems-edit-404" => {
             "message_id" => "20002",
             "languages" => {
               "en_us" => "Data bag item or its data bag not found.",
               "zh_cn" => "无法找到数据包项或包含它的数据包。"
             }
           },
-		  "opscode-chef-webui-databagitems-update-success" => {
+		      "opscode-chef-webui-databagitems-update-success" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "The data bag item was updated successfully.",
@@ -1412,14 +1412,14 @@ module Mixlib
               "zh_cn" => "同名数据包项已存在。"
             }
           },
-		  "opscode-chef-webui-databagitems-create-success" => {
+		      "opscode-chef-webui-databagitems-create-success" => {
             "message_id" => "10009",
             "languages" => {
               "en_us" => "The data bag item was created successfully.",
               "zh_cn" => "成功创建数据包项。"
             }
           },
-		  "opscode-chef-webui-databagitems-create-failed-validation" => {
+		      "opscode-chef-webui-databagitems-create-failed-validation" => {
             "message_id" => "10009",
             "languages" => {
               "en_us" => "The new data bag item is not formed correctly. Check for illegal characters in the data bag item's body, and check that the body is formed correctly.",
@@ -1440,7 +1440,7 @@ module Mixlib
               "zh_cn" => "对不起，您没有权限在此组织创建新的数据包项。"
             }
           },
-		  "opscode-chef-webui-databagitems-show-404" => {
+		      "opscode-chef-webui-databagitems-show-404" => {
             "message_id" => "10010",
             "languages" => {
               "en_us" => "Data bag item or its data bag not found.",
@@ -1454,7 +1454,7 @@ module Mixlib
               "zh_cn" => "对不起，您没有权限在访问此数据包项或包含它的数据包。"
             }
           },
-		  "opscode-chef-webui-databagitems-destroy-404" => {
+		      "opscode-chef-webui-databagitems-destroy-404" => {
             "message_id" => "10015",
             "languages" => {
               "en_us" => "Data bag item or its data bag not found.",
@@ -1468,14 +1468,14 @@ module Mixlib
               "zh_cn" => "对不起，您无权删除此数据包项或包含它的数据包。"
             }
           },
-		  "opscode-chef-webui-databagitems-destroy-success" => {
+		      "opscode-chef-webui-databagitems-destroy-success" => {
             "message_id" => "10015",
             "languages" => {
               "en_us" => "The data bag item was deleted successfully.",
               "zh_cn" => "成功删除数据包项。"
             }
           },
-		  "opscode-chef-webui-databagitems-destroy-confirm" => {
+		      "opscode-chef-webui-databagitems-destroy-confirm" => {
             "message_id" => "10015",
             "languages" => {
               "en_us" => "Please confirm that you would like to delete this data bag item.",
