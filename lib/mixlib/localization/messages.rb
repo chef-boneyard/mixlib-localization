@@ -1518,7 +1518,104 @@ module Mixlib
               "en_us" => "Could not complete the search.",
               "zh_cn" => "无法完成搜索。"
             }
-          }
+          },
+          "opscode-chef-webui-organizations-index-403" => {
+            "message_id" => "10006",
+            "languages" => {
+              # REVIEW
+              "en_us" => "Permission denied. You do not have permission to list the organizations for this user.",
+              "zh_cn" => ""
+            }
+          },
+          "opscode-chef-webui-organizations-index-408" => {
+            "message_id" => "10006",
+            "languages" => {
+              # REVIEW
+              "en_us" => "Request timed out when attempting to retrieve the list of organizations for this user.",
+              "zh_cn" => ""
+            }
+          },
+          "opscode-chef-webui-organizations-show-403" => {
+            "message_id" => "10006",
+            "languages" => {
+              # REVIEW
+              "en_us" => "Permission denied. You do not have permission to view the organization.",
+              "zh_cn" => ""
+            }
+          },
+          "opscode-chef-webui-organizations-show-404" => {
+            "message_id" => "10006",
+            "languages" => {
+              # REVIEW
+              "en_us" => "Org not found. It does not exist or has been deleted.",
+              "zh_cn" => ""
+            }
+          },
+          "opscode-chef-webui-organizations-show-408" => {
+            "message_id" => "10006",
+            "languages" => {
+              # REVIEW
+              "en_us" => "Request timed out when attempting to show the organizations.",
+              "zh_cn" => ""
+            }
+          },
+          "opscode-chef-webui-organizations-edit-404" => {
+            "message_id" => "10006",
+            "languages" => {
+              # REVIEW
+              "en_us" => "Org not found. It does not exist or has been deleted.",
+              "zh_cn" => ""
+            }
+          },
+          "opscode-chef-webui-organizations-update-400" => {
+            "message_id" => "10006",
+            "languages" => {
+              # REVIEW
+              "en_us" => "The information you entered was invalid",
+              "zh_cn" => ""
+            }
+          },
+          "opscode-chef-webui-organizations-update-403" => {
+            "message_id" => "10006",
+            "languages" => {
+              # REVIEW
+              "en_us" => "You are not authorized to edit this organization.",
+              "zh_cn" => ""
+            }
+          },
+          "opscode-chef-webui-organizations-update-404" => {
+            "message_id" => "10006",
+            "languages" => {
+              # REVIEW
+              "en_us" => "The organization was not found.",
+              "zh_cn" => ""
+            }
+          },
+          "opscode-chef-webui-organizations-dissociate-400" => {
+            "message_id" => "10006",
+            "languages" => {
+              # REVIEW
+              "en_us" => "The information you entered was invalid",
+              "zh_cn" => ""
+            }
+          },
+          "opscode-chef-webui-organizations-dissociate-403" => {
+            "message_id" => "10006",
+            "languages" => {
+              # REVIEW
+              "en_us" => "You are not authorized to edit this organization.",
+              "zh_cn" => ""
+            }
+          },
+          "opscode-chef-webui-organizations-dissociate-404" => {
+            "message_id" => "10006",
+            "languages" => {
+              # REVIEW
+              "en_us" => "The organization was not found.",
+              "zh_cn" => ""
+            }
+          },
+
         }
       end
     end
