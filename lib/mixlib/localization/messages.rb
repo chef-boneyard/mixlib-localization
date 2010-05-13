@@ -47,7 +47,6 @@ module Mixlib
       def self.get_parse_info_message(message_key, language_code)
         self.parse_info_message(self.get_message(message_key, language_code))
       end
-
       
       # Generates a text file with message ids and the messages, Customer Service may use this file as a reference.
       # messages generated are not sorted (at least currently), but I don't see the need/benefits yet to make them sorted
