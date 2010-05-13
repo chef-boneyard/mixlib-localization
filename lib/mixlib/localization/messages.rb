@@ -61,12 +61,14 @@ module Mixlib
             "languages" => {
               "en_us" => "An application error has occurred. Please try again later.",
               "zh_cn" => "应用程序错误，请稍候重试。多谢理解。"
+            }
           },
-          "opscode-chef-webui-incorrect-password" => {
+          "opscode-chef-webui-login-incorrect_password" => {
             "message_id" => "10000",
             "languages" => {
               "en_us" => "Username and password do not match.",
               "zh_cn" => ""
+            }
           },
           "opscode-chef-webui-nodes-show-403" => {
             "message_id" => "10000",
@@ -445,22 +447,22 @@ module Mixlib
               "en_us" => "Permission denied. You do not have permission to read this client.",
               "zh_cn" => "对不起，您没有权限读取此客户端。"
             }
-		    },
-	      "opscode-chef-webui-clients-edit-404" => {
-		    "message_id" => "20000",
-            "languages" => {
-              "en_us" => "Client not found.",
-              "zh_cn" => "无法找到客户端。"
-            }
-		    },
-		    "opscode-chef-webui-clients-edit-408" => {
-			    "message_id" => "20000",
-            "languages" => {
-              "en_us" => "Request timed out when attempting to read the client.",
-              "zh_cn" => "对不起，尝试读取此客户端超时。"
-            }
-		    },
-		    "opscode-chef-webui-clients-update-success" => {
+		      },
+	        "opscode-chef-webui-clients-edit-404" => {
+		        "message_id" => "20000",
+              "languages" => {
+                "en_us" => "Client not found.",
+                "zh_cn" => "无法找到客户端。"
+              }
+		      },
+		      "opscode-chef-webui-clients-edit-408" => {
+			      "message_id" => "20000",
+              "languages" => {
+                "en_us" => "Request timed out when attempting to read the client.",
+                "zh_cn" => "对不起，尝试读取此客户端超时。"
+              }
+		      },
+		      "opscode-chef-webui-clients-update-success" => {
             "message_id" => "20000",
             "languages" => {
               "en_us" => "The client was updated successfully.",
@@ -1487,6 +1489,13 @@ module Mixlib
             "languages" => {
               "en_us" => "The permissions were updated successfully.",
               "zh_cn" => "成功更新权限设置。"
+            }
+          },
+          "opscode-chef-webui-login-login_exists" => {
+            "message_id" => "20000",
+            "languages" => {
+              "en_us" => "You are already logged in.",
+              "zh_cn" => ""
             }
           }
         }
