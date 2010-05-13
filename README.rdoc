@@ -1,8 +1,8 @@
 == Mixlib::Localization
 
-Mixlib::Localization::Messages
+==Mixlib::Localization::Messages
 
-==self.get_message(message_key, language_code)==
+==self.get_message(message_key, language_code)
 
 Mixlib::Localization::Messages stores the error and informational messages and provide a public method get_message(message_key, language_code) to retrieve message id and the message in a specific language.
 
@@ -25,9 +25,10 @@ If you pass in a non-existent language code, it will use en_us.
 
 If you pass in a invalid error key, it will throw a Mixlib::Localization::MessageRetrievalError.
 
-==self.parse_error_message==
+==self.parse_error_message
 
 self.parse_error_message takes the array returned from get_message, and generates a formatted error message.
 
+==self.generate_message_text_file(language, output_file)
 
- 
+This method takes a language code and the path to the output_file and generates a text file with message ids, messages, and internal message keys.
