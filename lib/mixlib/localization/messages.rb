@@ -1638,7 +1638,7 @@ module Mixlib
           "opscode-chef-webui-organizations-associate-failed-user" => {
             "message_id" => "32016",
             "languages" => {
-              "en_us" => "Could not invite the following users: ",
+              "en_us" => "Could not invite the following user: ",
               "zh_cn" => "无法向这些用户发送邀请："
             }
           },
@@ -1667,7 +1667,7 @@ module Mixlib
           "opscode-chef-webui-organizations-associate-403" => {
             "message_id" => "32020",
             "languages" => {
-              "en_us" => "Permission denied. You do not have permission to associate the user to this organization.",
+              "en_us" => "Permission denied. You do not have permission to invite the user to this organization.",
               "zh_cn" => "对不起，您没有权利关联此用户到此组织。"
             }
           },
