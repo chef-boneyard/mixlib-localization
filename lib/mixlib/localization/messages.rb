@@ -33,7 +33,7 @@ module Mixlib
 
       # Convenience method combining get_message and parse_error_message
       def self.get_parse_error_message(message_key, language_code)
-        self.parse_error_message(self.get_error_message(message_key, language_code))
+        self.parse_error_message(self.get_message(message_key, language_code))
       end
 
       
@@ -45,7 +45,7 @@ module Mixlib
 
       # Convenience method combining get_message and parse_error_message
       def self.get_parse_info_message(message_key, language_code)
-        parse_error_message(get_info_message(message_key, language_code))
+        self.parse_info_message(self.get_message(message_key, language_code))
       end
 
       
