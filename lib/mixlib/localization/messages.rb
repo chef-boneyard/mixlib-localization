@@ -1716,17 +1716,31 @@ module Mixlib
           "opscode-chef-webui-organizations-invite-accept-forbidden" => {
             "message_id" => "32027",
             "languages" => {
-              "en_us" => "Permission denied. You do not have permission to accept this invite ",
+              "en_us" => "Permission denied. You do not have permission to accept this invite.",
               "zh_cn" => "对不起，您没有权限接受此邀请。"
             }
           },   
           "opscode-chef-webui-organizations-invite-reject-forbidden" => {
             "message_id" => "32028",
             "languages" => {
-              "en_us" => "Permission denied. You do not have permission to reject this invite ",
+              "en_us" => "Permission denied. You do not have permission to reject this invite.",
               "zh_cn" => "对不起，您没有权限拒绝此邀请。"
             }
-          },      
+          },
+          "opscode-chef-webui-organizations-update-success" => {
+            "message_id" => "32029",
+            "languages" => {
+              "en_us" => "The organization was updated successfully.",
+              "zh_cn" => "babynuo.jpg"
+            }
+          },
+          "opscode-chef-webui-organizations-check_association-nil" => {
+            "message_id" => "32030",
+            "languages" => {
+              "en_us" => "An organization needs to be associated and selected.",
+              "zh_cn" => "babynuo.jpg"
+            }
+          }
         }
       end
     end
