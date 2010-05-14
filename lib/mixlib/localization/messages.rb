@@ -1731,14 +1731,14 @@ module Mixlib
             "message_id" => "32029",
             "languages" => {
               "en_us" => "The organization was updated successfully.",
-              "zh_cn" => "babynuo.jpg"
+              "zh_cn" => "成功更新此组织。"
             }
           },
           "opscode-chef-webui-organizations-check_association-nil" => {
             "message_id" => "32030",
             "languages" => {
-              "en_us" => "An organization needs to be associated and selected.",
-              "zh_cn" => "babynuo.jpg"
+              "en_us" => "An organization needs to be joined and selected.",
+              "zh_cn" => "您需要加入和选择一个组织。"
             }
           }
         }
