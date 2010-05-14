@@ -1714,7 +1714,7 @@ module Mixlib
             }
           },
           "opscode-chef-webui-organizations-invite-accept-forbidden" => {
-            "message_id" => "10006",
+            "message_id" => "32027",
             "languages" => {
               # REVIEW
               "en_us" => "Insufficient permission to accept this invite ",
@@ -1722,7 +1722,7 @@ module Mixlib
             }
           },   
           "opscode-chef-webui-organizations-invite-reject-forbidden" => {
-            "message_id" => "10006",
+            "message_id" => "32028",
             "languages" => {
               # REVIEW
               "en_us" => "Insufficient permission to reject this invite ",
