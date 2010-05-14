@@ -431,7 +431,7 @@ module Mixlib
               "zh_cn" => "无法找到邀请。"
             }
           },
-          "opscode-chef-webui-users-rescind_invite-404" => {
+          "opscode-chef-webui-users-rescind_invite-403" => {
             "message_id" => "21019",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to rescind this invitation.",
