@@ -1716,17 +1716,15 @@ module Mixlib
           "opscode-chef-webui-organizations-invite-accept-forbidden" => {
             "message_id" => "32027",
             "languages" => {
-              # REVIEW
-              "en_us" => "Insufficient permission to accept this invite ",
-              "zh_cn" => ""
+              "en_us" => "Permission denied. You do not have permission to accept this invite ",
+              "zh_cn" => "对不起，您没有权限接受此邀请。"
             }
           },   
           "opscode-chef-webui-organizations-invite-reject-forbidden" => {
             "message_id" => "32028",
             "languages" => {
-              # REVIEW
-              "en_us" => "Insufficient permission to reject this invite ",
-              "zh_cn" => ""
+              "en_us" => "Permission denied. You do not have permission to reject this invite ",
+              "zh_cn" => "对不起，您没有权限拒绝此邀请。"
             }
           },      
         }
