@@ -403,6 +403,13 @@ module Mixlib
               "zh_cn" => "成功关联用户。"
             }
           },
+		  "opscode-chef-webui-users-dissociate-confirm" => {
+            "message_id" => "21020",
+            "languages" => {
+              "en_us" => "Please confirm that you would like to dissociate this user from this organization.",
+              "zh_cn" => "请确认您希望取消此用户与此组织的关联。"
+            }
+          },
           "opscode-chef-webui-users-dissociate-404" => {
             "message_id" => "21015",
             "languages" => {
@@ -436,6 +443,13 @@ module Mixlib
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to rescind this invitation.",
               "zh_cn" => "对不起，您没有权限撤销此邀请。"
+            }
+          },
+		  "opscode-chef-webui-users-rescind_invite-confirm" => {
+            "message_id" => "21021",
+            "languages" => {
+              "en_us" => "Please confirm that you would like to rescind this invitation.",
+              "zh_cn" => "请确认您希望撤销对此用户发出邀请。"
             }
           },
           "opscode-chef-webui-clients-index-403" => {
