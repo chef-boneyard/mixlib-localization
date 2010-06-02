@@ -399,14 +399,14 @@ module Mixlib
           "opscode-chef-webui-users-dissociate-success" => {
             "message_id" => "21014",
             "languages" => {
-              "en_us" => "The user was dissociated successfully.",
+              "en_us" => "The user was removed successfully.",
               "zh_cn" => "成功关联用户。"
             }
           },
 		  "opscode-chef-webui-users-dissociate-confirm" => {
             "message_id" => "21020",
             "languages" => {
-              "en_us" => "Please confirm that you would like to dissociate this user from this organization.",
+              "en_us" => "Please confirm that you would like to leave this organization.",
               "zh_cn" => "请确认您希望取消此用户与此组织的关联。"
             }
           },
@@ -420,7 +420,7 @@ module Mixlib
           "opscode-chef-webui-users-dissociate-403" => {
             "message_id" => "21016",
             "languages" => {
-              "en_us" => "Permission denied. You do not have permission to dissociate this user.",
+              "en_us" => "Permission denied. You do not have permission to remove this user from this organization.",
               "zh_cn" => "对不起，您没有权限取消此用户和此组织的关联。"
             }
           },
@@ -1610,7 +1610,7 @@ module Mixlib
           "opscode-chef-webui-organizations-dissociate-403" => {
             "message_id" => "32010",
             "languages" => {
-              "en_us" => "Permission denied. You do not have permission to dissociate this organization.",
+              "en_us" => "Permission denied. You do not have permission to remove this user from this organization.",
               "zh_cn" => "对不起，您没有权限取消此组织和此用户的关联。"
             }
           },
