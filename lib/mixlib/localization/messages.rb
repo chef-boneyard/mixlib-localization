@@ -399,7 +399,7 @@ module Mixlib
           "opscode-chef-webui-users-dissociate-success" => {
             "message_id" => "21014",
             "languages" => {
-              "en_us" => "The user was removed successfully.",
+              "en_us" => "The user was removed successfully from this organization.",
               "zh_cn" => "成功关联用户。"
             }
           },
