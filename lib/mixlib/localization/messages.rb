@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #
 # Author:: Nuo Yan <nuo@opscode.com>
 #
@@ -1659,7 +1660,7 @@ module Mixlib
           "opscode-chef-webui-organizations-associate-notify-email-subject" => {
             "message_id" => "32017",
             "languages" => {
-              "en_us" => "You have been invited to join an Opscode organization",
+              "en_us" => "You have been invited to join the Opscode organization",
               "zh_cn" => "您收到一个加入Opscode组织的邀请"
             }
           },
