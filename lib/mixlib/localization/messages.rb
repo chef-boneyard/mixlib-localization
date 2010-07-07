@@ -1755,7 +1755,25 @@ module Mixlib
               "en_us" => "An organization needs to be joined and selected.",
               "zh_cn" => "您需要加入和选择一个组织。"
             }
-          }
+          },
+          "opscode-chef-webui-regenerate-org-key-confirm" => {
+            "message_id" => 32030,
+            "languages" => {
+              "en_us" => "Please note that any clients using your current validation key will stop working. Are you sure you want to do this?"
+            }
+          },
+          "opscode-chef-webui-organizations-regenerate-org-key-403" => {
+            "message_id" => 32031,
+            "languages" => {
+              "en_us" => "Permission denied. You do not have permission to regenerate that organization key."
+            }
+          },
+          "opscode-chef-webui-organizations-regenerate-org-key-404" => {
+            "message_id" => 32032,
+            "languages" => {
+              "en_us" => "Organization not found."
+            }
+          },
         }
       end
     end
