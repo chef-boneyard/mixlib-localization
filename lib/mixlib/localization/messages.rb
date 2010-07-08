@@ -1759,19 +1759,22 @@ module Mixlib
           "opscode-chef-webui-regenerate-org-key-confirm" => {
             "message_id" => 32030,
             "languages" => {
-              "en_us" => "Please note that any clients using your current validation key will stop working. Are you sure you want to do this?"
+              "en_us" => "Please note that any clients using your current validation key will stop working. Are you sure you want to do this?",
+              "zh_cn" => "注意：所有正在使用现有的私钥的客户端将需要使用新的私钥，您确定要继续吗？"
             }
           },
           "opscode-chef-webui-organizations-regenerate-org-key-403" => {
             "message_id" => 32031,
             "languages" => {
-              "en_us" => "Permission denied. You do not have permission to regenerate that organization key."
+              "en_us" => "Permission denied. You do not have permission to regenerate that organization key.",
+              "zh_cn" => "对不起，您没有权限重新生成私钥。"
             }
           },
           "opscode-chef-webui-organizations-regenerate-org-key-404" => {
             "message_id" => 32032,
             "languages" => {
-              "en_us" => "Organization not found."
+              "en_us" => "Organization not found.",
+              "zh_cn" => "无法找到您指定的组织。"
             }
           },
         }
