@@ -1780,8 +1780,8 @@ module Mixlib
           "opscode-chef-webui-organizations-create-success" => {
             "message_id" => "32034",
             "languages" => {
-              "en_us" => "The organization was created successfully.",
-              "zh_cn" => "成功创建新的组织。"
+              "en_us" => "The organization was created successfully. The Management Console has been pointed to the new organization.",
+              "zh_cn" => "成功创建新的组织。管理控制台已成功配置使用新的组织。"
             }
           }
         }
