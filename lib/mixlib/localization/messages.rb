@@ -1777,6 +1777,13 @@ module Mixlib
               "zh_cn" => "无法找到您指定的组织。"
             }
           },
+          "opscode-chef-webui-organizations-create-success" => {
+            "message_id" => "32034",
+            "languages" => {
+              "en_us" => "The organization was created successfully.",
+              "zh_cn" => "成功创建新的组织。"
+            }
+          }
         }
       end
     end
