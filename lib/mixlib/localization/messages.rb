@@ -1804,6 +1804,13 @@ module Mixlib
               "en_us" => "An organization with that short name already exists.",
               "zh_cn" => "同名（短组织名）组织已存在。"
             }
+          },
+          "opscode-chef-webui-organizations-create-knife" => {
+            "message_id" => "32037",
+            "languages" => {
+              "en_us" => "Knife is Chef's command-line tool. You can download a pre-configured copy of the configuration file.",
+              "zh_cn" => "Knife是Chef的命令行工具，您可以在此下载它的配置文件。"
+            }
           }
         }
       end
