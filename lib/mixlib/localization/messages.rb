@@ -1783,6 +1783,27 @@ module Mixlib
               "en_us" => "The organization was created successfully. The Management Console has been pointed to the new organization.",
               "zh_cn" => "成功创建新的组织。管理控制台已成功配置使用新的组织。"
             }
+          },
+          "opscode-chef-webui-organizations-create-400" => {
+            "message_id" => "32035",
+            "languages" => {
+              "en_us" => "The short name contains illegal characters. The following characters are allowed: a-z, 0-9, _, -.",
+              "zh_cn" => "短组织名包含不支持的字符。系统支持如下字符：a-z, 0-9, _, -。"
+            }
+          },
+          "opscode-chef-webui-organizations-create-403" => {
+            "message_id" => "32036",
+            "languages" => {
+              "en_us" => "Permission denied. You do not have permission to create a new organization.",
+              "zh_cn" => "对不起，您没有权限创建新的组织。"
+            }
+          },
+          "opscode-chef-webui-organizations-create-409" => {
+            "message_id" => "32037",
+            "languages" => {
+              "en_us" => "An organization with that short name already exists.",
+              "zh_cn" => "同名（短组织名）组织已存在。"
+            }
           }
         }
       end
