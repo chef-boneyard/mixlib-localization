@@ -204,8 +204,8 @@ module Mixlib
           "opscode-chef-webui-nodes-create-failed-validation" => {
             "message_id" => "20017",
             "languages" => {
-              "en_us" => "The new node is not formed correctly. Check for illegal characters in the node's name or body, and check that the body is formed correctly.",
-              "zh_cn" => "新节点名字或内容中含有不支持的字符，或节点的结构不正确。"
+              "en_us" => "The new node is not formed correctly. Check for illegal characters in the node's name or body, and check that the body is formed correctly. Only A-Z, a-z, _, -, :, and . are supported in the name.",
+              "zh_cn" => "新节点名字或内容中含有不支持的字符，或节点的结构不正确。节点的名字只支持以下字符：A-Z, a-z, _, -, 和."
             }
           },
           "opscode-chef-webui-nodes-create-409" => {
