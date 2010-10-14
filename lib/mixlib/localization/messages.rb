@@ -953,7 +953,7 @@ module Mixlib
           "opscode-chef-webui-roles-show-404" => {
             "message_id" => "25002",
             "languages" => {
-              "en_us" => "role not found.",
+              "en_us" => "Role not found.",
               "zh_cn" => "无法找到角色。"
             }
           },
@@ -1037,7 +1037,7 @@ module Mixlib
           "opscode-chef-webui-roles-edit-404" => {
             "message_id" => "25014",
             "languages" => {
-              "en_us" => "role not found.",
+              "en_us" => "Role not found.",
               "zh_cn" => "无法找到角色。"
             }
           },
@@ -1128,7 +1128,7 @@ module Mixlib
           "opscode-chef-webui-roles-update-404" => {
             "message_id" => "25027",
             "languages" => {
-              "en_us" => "role not found.",
+              "en_us" => "Role not found.",
               "zh_cn" => "无法找到角色。"
             }
           },
@@ -1149,7 +1149,7 @@ module Mixlib
           "opscode-chef-webui-roles-destroy-404" => {
             "message_id" => "25030",
             "languages" => {
-              "en_us" => "role not found.",
+              "en_us" => "Role not found.",
               "zh_cn" => "无法找到角色。"
             }
           },
