@@ -7,7 +7,7 @@ require 'cucumber/rake/task'
 
 
 GEM = "mixlib-localization"
-GEM_VERSION = "1.0.0"
+GEM_VERSION = "1.0.1"
 AUTHOR = "Opscode, Inc."
 EMAIL = "info@opscode.com"
 HOMEPAGE = "http://www.opscode.com"

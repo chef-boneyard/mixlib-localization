@@ -1653,7 +1653,7 @@ module Mixlib
           "opscode-chef-webui-organizations-associate-failed-user" => {
             "message_id" => "32016",
             "languages" => {
-              "en_us" => "Could not invite the following user: ",
+              "en_us" => "Could not invite the following user(s): ",
               "zh_cn" => "无法向这些用户发送邀请："
             }
           },
