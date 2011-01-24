@@ -13,7 +13,7 @@ require 'mixlib/localization'
 module Mixlib
   module Localization
     class Messages
-      
+
       # Retrieve the error message given the error key (e.g. 'opscode-chef-webui-nodes-403') and the language code (e.g. 'en-us')
       # returns the array of error code (customer support purpose) and the message. (e.g. ["a7svai98", "You are not authorized to view the node."])
       def self.get_message(message_key, language_code)
@@ -25,7 +25,7 @@ module Mixlib
           raise MessageRetrievalError, "Cannot find the error message with message_key '#{message_key}'."
         end
       end
-      
+
       # Take what returns from self.get_message, and returns the formatted string.
       # Example: input: ["10000", "You are not authorized to view the node."], output: "Error 10000: You are not authorized to view the node."
       def self.parse_error_message(message_array)
@@ -37,7 +37,7 @@ module Mixlib
         self.parse_error_message(self.get_message(message_key, language_code))
       end
 
-      
+
       # Take what returns from self.get_message, and returns only the message.
       # Example: input: ["50000", "Successfully created node."], output: "Successfully created node."
       def self.parse_info_message(message_array)
@@ -48,7 +48,7 @@ module Mixlib
       def self.get_parse_info_message(message_key, language_code)
         self.parse_info_message(self.get_message(message_key, language_code))
       end
-      
+
       # Generates a text file with message ids and the messages, Customer Service may use this file as a reference.
       # messages generated are not sorted (at least currently), but I don't see the need/benefits yet to make them sorted
       def self.generate_message_text_file(language, output_file)
@@ -59,7 +59,7 @@ module Mixlib
         end
         file.close
       end
-      
+
       private
       #
       # Each message is structured with 3 components:
@@ -347,7 +347,7 @@ module Mixlib
               "en_us" => "User not found.",
               "zh_cn" => "无法找到用户。"
             }
-          },  
+          },
           "opscode-chef-webui-users-show-403" => {
             "message_id" => "21007",
             "languages" => {
@@ -404,7 +404,7 @@ module Mixlib
               "zh_cn" => "成功关联用户。"
             }
           },
-		  "opscode-chef-webui-users-dissociate-confirm" => {
+      "opscode-chef-webui-users-dissociate-confirm" => {
             "message_id" => "21020",
             "languages" => {
               "en_us" => "Please confirm that you would like to dissociate this user from this organization.",
@@ -446,7 +446,7 @@ module Mixlib
               "zh_cn" => "对不起，您没有权限撤销此邀请。"
             }
           },
-		  "opscode-chef-webui-users-rescind_invite-confirm" => {
+      "opscode-chef-webui-users-rescind_invite-confirm" => {
             "message_id" => "21021",
             "languages" => {
               "en_us" => "Please confirm that you would like to rescind this invitation.",
@@ -467,126 +467,126 @@ module Mixlib
               "zh_cn" => "对不起，尝试读取此组织的客户端列表超时。"
             }
           },
-		      "opscode-chef-webui-clients-edit-403" => {
-		        "message_id" => "22003",
+          "opscode-chef-webui-clients-edit-403" => {
+            "message_id" => "22003",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to read this client.",
               "zh_cn" => "对不起，您没有权限读取此客户端。"
             }
-		      },
-	        "opscode-chef-webui-clients-edit-404" => {
-		        "message_id" => "22004",
+          },
+          "opscode-chef-webui-clients-edit-404" => {
+            "message_id" => "22004",
               "languages" => {
                 "en_us" => "Client not found.",
                 "zh_cn" => "无法找到客户端。"
               }
-		      },
-		      "opscode-chef-webui-clients-edit-408" => {
-			      "message_id" => "22005",
+          },
+          "opscode-chef-webui-clients-edit-408" => {
+            "message_id" => "22005",
               "languages" => {
                 "en_us" => "Request timed out when attempting to read the client.",
                 "zh_cn" => "对不起，尝试读取此客户端超时。"
               }
-		      },
-		      "opscode-chef-webui-clients-update-success" => {
+          },
+          "opscode-chef-webui-clients-update-success" => {
             "message_id" => "22006",
             "languages" => {
               "en_us" => "The client was updated successfully.",
               "zh_cn" => "成功更新客户端。"
             }
           },
-		      "opscode-chef-webui-clients-update-403" => {
+          "opscode-chef-webui-clients-update-403" => {
             "message_id" => "22007",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to modify this client.",
               "zh_cn" => "对不起，您没有权限修改此客户端。"
             }
           },
-		      "opscode-chef-webui-clients-update-404" => {
+          "opscode-chef-webui-clients-update-404" => {
             "message_id" => "22008",
             "languages" => {
               "en_us" => "Client not found.",
               "zh_cn" => "无法找到客户端。"
             }
           },
-		      "opscode-chef-webui-clients-update-408" => {
+          "opscode-chef-webui-clients-update-408" => {
             "message_id" => "22009",
             "languages" => {
               "en_us" => "Request timed out when attempting to modify the client.",
               "zh_cn" => "对不起，尝试修改此客户端超时。"
             }
           },
-		      "opscode-chef-webui-clients-update-409" => {
+          "opscode-chef-webui-clients-update-409" => {
             "message_id" => "22010",
             "languages" => {
               "en_us" => "The new name of the client conflicts with another existing client.",
               "zh_cn" => "同名客户端已存在。"
             }
           },
-		      "opscode-chef-webui-clients-update-400" => {
+          "opscode-chef-webui-clients-update-400" => {
             "message_id" => "22011",
             "languages" => {
               "en_us" => "The new client name contains illegal characters. The following characters are allowed: a-z, A-Z, 0-9, _, -",
               "zh_cn" => "新客户端名字中含有不支持的字符。系统支持的字符包括：a-z, A-Z, 0-9, _, -。"
             }
           },
-		      "opscode-chef-webui-clients-create-success" => {
+          "opscode-chef-webui-clients-create-success" => {
             "message_id" => "22012",
             "languages" => {
               "en_us" => "The client was created successfully.",
               "zh_cn" => "成功创建客户端。"
             }
           },
-		      "opscode-chef-webui-clients-private-key" => {
+          "opscode-chef-webui-clients-private-key" => {
             "message_id" => "22013",
             "languages" => {
               "en_us" => "This private key will be required when you interact with Opscode Platform APIs. Opscode does not keep a copy so please store it somewhere safe.",
               "zh_cn" => "与Opscode平台API交互时，您将需要此私钥。请妥善保存，Opscode不会存储此私钥。"
             }
           },
-		      "opscode-chef-webui-clients-create-400" => {
+          "opscode-chef-webui-clients-create-400" => {
             "message_id" => "22014",
             "languages" => {
               "en_us" => "The new client name contains illegal characters. The following characters are allowed: a-z, A-Z, 0-9, _, -",
               "zh_cn" => "新客户端名字中含有不支持的字符。系统支持的字符包括：a-z, A-Z, 0-9, _, -。"
             }
           },
-		      "opscode-chef-webui-clients-create-403" => {
+          "opscode-chef-webui-clients-create-403" => {
             "message_id" => "22015",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to create a client in this organization.",
               "zh_cn" => "对不起，您没有权限在此组织创建新的客户端。"
             }
           },
-		      "opscode-chef-webui-clients-create-408" => {
+          "opscode-chef-webui-clients-create-408" => {
             "message_id" => "22016",
             "languages" => {
               "en_us" => "Request timed out when attempting to create a new client.",
               "zh_cn" => "对不起，尝试创建新客户端超时。"
             }
           },
-		      "opscode-chef-webui-clients-create-409" => {
+          "opscode-chef-webui-clients-create-409" => {
             "message_id" => "22017",
             "languages" => {
               "en_us" => "A client with that name already exists.",
               "zh_cn" => "同名客户端已存在。"
             }
           },
-		      "opscode-chef-webui-clients-destroy-success" => {
+          "opscode-chef-webui-clients-destroy-success" => {
             "message_id" => "22018",
             "languages" => {
               "en_us" => "The client was deleted successfully.",
               "zh_cn" => "成功删除客户端。"
             }
           },
-		      "opscode-chef-webui-clients-destroy-confirm" => {
+          "opscode-chef-webui-clients-destroy-confirm" => {
             "message_id" => "22019",
             "languages" => {
               "en_us" => "Please confirm that you would like to delete this client.",
               "zh_cn" => "请确认您希望删除此客户端。"
             }
           },
-		      "opscode-chef-webui-clients-destroy-403" => {
+          "opscode-chef-webui-clients-destroy-403" => {
             "message_id" => "22020",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to delete this client.",
@@ -607,7 +607,7 @@ module Mixlib
               "zh_cn" => "对不起，尝试删除此客户端超时。"
             }
           },
-		      "opscode-chef-webui-clients-container-acl-get-403" => {
+          "opscode-chef-webui-clients-container-acl-get-403" => {
             "message_id" => "22023",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to read the permissions on the clients collection in this organization.",
@@ -621,14 +621,14 @@ module Mixlib
               "zh_cn" => "对不起，尝试读取此组织的客户端集合的权限设置超时。"
             }
           },
-		      "opscode-chef-webui-clients-container-acl-set" => {
+          "opscode-chef-webui-clients-container-acl-set" => {
             "message_id" => "22025",
             "languages" => {
               "en_us" => "Failed to set permissions on the clients collection in this organization.",
               "zh_cn" => "对不起，更新此组织的客户端集合的权限设置失败。"
             }
           },
-		      "opscode-chef-webui-clients-acl-get-403" => {
+          "opscode-chef-webui-clients-acl-get-403" => {
             "message_id" => "22026",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to read the permissions on this client.",
@@ -642,7 +642,7 @@ module Mixlib
               "zh_cn" => "对不起，尝试读取客户端的权限设置超时"
             }
           },
-		      "opscode-chef-webui-clients-acl-set" => {
+          "opscode-chef-webui-clients-acl-set" => {
             "message_id" => "22028",
             "languages" => {
               "en_us" => "Failed to set permissions on this client.",
@@ -810,7 +810,7 @@ module Mixlib
               "zh_cn" => "对不起，尝试删除此群组超时。"
             }
           },
-          "opscode-chef-webui-groups-destroy-success" => {  
+          "opscode-chef-webui-groups-destroy-success" => {
             "message_id" => "23024",
             "languages" => {
               "en_us" => "The group was deleted successfully.",
@@ -943,7 +943,7 @@ module Mixlib
               "zh_cn" => "对不起，更新此食谱的权限设置失败。"
             }
           },
-		      "opscode-chef-webui-roles-show-403" => {
+          "opscode-chef-webui-roles-show-403" => {
             "message_id" => "25001",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to view the role.",
@@ -1167,7 +1167,7 @@ module Mixlib
               "zh_cn" => "对不起，尝试删除此角色超时。"
             }
           },
-		      "opscode-chef-webui-databags-show-403" => {
+          "opscode-chef-webui-databags-show-403" => {
             "message_id" => "26001",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to view the data bag.",
@@ -1391,21 +1391,21 @@ module Mixlib
               "zh_cn" => "对不起，尝试删除此数据包超时。"
             }
           },
-		      "opscode-chef-webui-databagitems-edit-403" => {
+          "opscode-chef-webui-databagitems-edit-403" => {
             "message_id" => "27001",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to read this data bag item or its data bag.",
               "zh_cn" => "对不起，您没有权限读取此数据包项或包含它的数据包。"
             }
           },
-		      "opscode-chef-webui-databagitems-edit-404" => {
+          "opscode-chef-webui-databagitems-edit-404" => {
             "message_id" => "27002",
             "languages" => {
               "en_us" => "Data bag item or its data bag not found.",
               "zh_cn" => "无法找到数据包项或包含它的数据包。"
             }
           },
-		      "opscode-chef-webui-databagitems-update-success" => {
+          "opscode-chef-webui-databagitems-update-success" => {
             "message_id" => "27003",
             "languages" => {
               "en_us" => "The data bag item was updated successfully.",
@@ -1440,14 +1440,14 @@ module Mixlib
               "zh_cn" => "同名数据包项已存在。"
             }
           },
-		      "opscode-chef-webui-databagitems-create-success" => {
+          "opscode-chef-webui-databagitems-create-success" => {
             "message_id" => "27008",
             "languages" => {
               "en_us" => "The data bag item was created successfully.",
               "zh_cn" => "成功创建数据包项。"
             }
           },
-		      "opscode-chef-webui-databagitems-create-failed-validation" => {
+          "opscode-chef-webui-databagitems-create-failed-validation" => {
             "message_id" => "27009",
             "languages" => {
               "en_us" => "The new data bag item is not formed correctly. Check for illegal characters in the data bag item's body, and check that the body is formed correctly.",
@@ -1468,7 +1468,7 @@ module Mixlib
               "zh_cn" => "对不起，您没有权限在此组织创建新的数据包项。"
             }
           },
-		      "opscode-chef-webui-databagitems-show-404" => {
+          "opscode-chef-webui-databagitems-show-404" => {
             "message_id" => "27012",
             "languages" => {
               "en_us" => "Data bag item or its data bag not found.",
@@ -1482,7 +1482,7 @@ module Mixlib
               "zh_cn" => "对不起，您没有权限在访问此数据包项或包含它的数据包。"
             }
           },
-		      "opscode-chef-webui-databagitems-destroy-404" => {
+          "opscode-chef-webui-databagitems-destroy-404" => {
             "message_id" => "27014",
             "languages" => {
               "en_us" => "Data bag item or its data bag not found.",
@@ -1496,14 +1496,14 @@ module Mixlib
               "zh_cn" => "对不起，您无权删除此数据包项或包含它的数据包。"
             }
           },
-		      "opscode-chef-webui-databagitems-destroy-success" => {
+          "opscode-chef-webui-databagitems-destroy-success" => {
             "message_id" => "27016",
             "languages" => {
               "en_us" => "The data bag item was deleted successfully.",
               "zh_cn" => "成功删除数据包项。"
             }
           },
-		      "opscode-chef-webui-databagitems-destroy-confirm" => {
+          "opscode-chef-webui-databagitems-destroy-confirm" => {
             "message_id" => "27017",
             "languages" => {
               "en_us" => "Please confirm that you would like to delete this data bag item.",
@@ -1706,14 +1706,14 @@ module Mixlib
               "en_us" => "The organization invite was accepted successfully.",
               "zh_cn" => "成功接受关联组织的邀请。"
             }
-          },          
+          },
           "opscode-chef-webui-organizations-invite-accept-already" => {
             "message_id" => "32024",
             "languages" => {
               "en_us" => "This organization invite was accepted already.",
               "zh_cn" => "您已经接受过此组织的邀请。"
             }
-          },          
+          },
           "opscode-chef-webui-organizations-invite-reject" => {
             "message_id" => "32025",
             "languages" => {
@@ -1734,7 +1734,7 @@ module Mixlib
               "en_us" => "Permission denied. You do not have permission to accept this invite.",
               "zh_cn" => "对不起，您没有权限接受此邀请。"
             }
-          },   
+          },
           "opscode-chef-webui-organizations-invite-reject-forbidden" => {
             "message_id" => "32028",
             "languages" => {
@@ -1810,6 +1810,34 @@ module Mixlib
             "languages" => {
               "en_us" => "Knife is Chef's command-line tool. You can download a pre-configured copy of the configuration file.",
               "zh_cn" => "Knife是Chef的命令行工具，您可以在此下载它的配置文件。"
+            }
+          },
+          "opscode-chef-webui-environments-index-403" => {
+            "message_id" => "33000",
+            "languages" => {
+              "en_us" => "Permission denied. You do not have permission to list the environments in this organization.",
+              "zh_cn" => "对不起，您无权查看此组织的环境列表。"
+            }
+          },
+          "opscode-chef-webui-environments-show-403" => {
+            "message_id" => "33001",
+            "languages" => {
+              "en_us" => "Permission denied. You do not have permission to view the environment in this organization.",
+              "zh_cn" => "对不起，您无权查看此环境。"
+            }
+          },
+          "opscode-chef-webui-environments-show-404" => {
+            "message_id" => "33002",
+            "languages" => {
+              "en_us" => "Environment not found.",
+              "zh_cn" => "无法找到环境。"
+            }
+          },
+          "opscode-chef-webui-environments-destroy-confirm" => {
+            "message_id" => "33003",
+            "languages" => {
+              "en_us" => "Please confirm that you would like to delete this environment.",
+              "zh_cn" => "请确认您希望删除此环境。"
             }
           }
         }
