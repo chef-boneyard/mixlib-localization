@@ -1902,6 +1902,20 @@ module Mixlib
               "en_us" => "Permission denied. You do not have permission to list nodes in this environment. You need \"read\" permission on nodes and on this environment.",
               "zh_cn" => "对不起，您无权查看此环境中的节点列表。您需要有对节点列表和此环境的“读”权限"
             }
+          },
+          "opscode-chef-webui-environments-create-success" => {
+            "message_id" => "33013",
+            "languages" => {
+              "en_us" => "The environment was created successfully.",
+              "zh_cn" => "成功创建环境。"
+            }
+          },
+          "opscode-chef-webui-environments-update-success" => {
+            "message_id" => "33014",
+            "languages" => {
+              "en_us" => "The environment was updated successfully.",
+              "zh_cn" => "成功更新环境。"
+            }
           }
         }
       end
