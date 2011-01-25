@@ -1846,6 +1846,20 @@ module Mixlib
               "en_us" => "The environment was deleted successfully.",
               "zh_cn" => "成功删除环境。"
             }
+          },
+          "opscode-chef-webui-environments-destroy-404" => {
+            "message_id" => "33005",
+            "languages" => {
+              "en_us" => "Environment not found.",
+              "zh_cn" => "无法找到环境。"
+            }
+          },
+          "opscode-chef-webui-environments-destroy-403" => {
+            "message_id" => "33006",
+            "languages" => {
+              "en_us" => "Permission denied. You do not have permission to delete this environment.",
+              "zh_cn" => "对不起，您无权删除此环境。"
+            }
           }
         }
       end
