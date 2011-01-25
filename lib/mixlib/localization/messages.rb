@@ -1839,6 +1839,13 @@ module Mixlib
               "en_us" => "Please confirm that you would like to delete this environment.",
               "zh_cn" => "请确认您希望删除此环境。"
             }
+          },
+          "opscode-chef-webui-environments-destroy-success" => {
+            "message_id" => "33004",
+            "languages" => {
+              "en_us" => "The environment was deleted successfully.",
+              "zh_cn" => "成功删除环境。"
+            }
           }
         }
       end
