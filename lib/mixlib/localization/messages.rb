@@ -1860,6 +1860,13 @@ module Mixlib
               "en_us" => "Permission denied. You do not have permission to delete this environment.",
               "zh_cn" => "对不起，您无权删除此环境。"
             }
+          },
+          "opscode-chef-webui-environments-destroy-405" => {
+            "message_id" => "33007",
+            "languages" => {
+              "en_us" => "You are not allowed to delete the _default environment.",
+              "zh_cn" => "_default环境是默认环境，不允许被删除。"
+            }
           }
         }
       end
