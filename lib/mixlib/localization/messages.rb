@@ -1819,14 +1819,14 @@ module Mixlib
               "zh_cn" => "对不起，您无权查看此组织的环境列表。"
             }
           },
-          "opscode-chef-webui-environments-show-403" => {
+          "opscode-chef-webui-environments-get-env-403" => {
             "message_id" => "33001",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to view the environment in this organization.",
               "zh_cn" => "对不起，您无权查看此环境。"
             }
           },
-          "opscode-chef-webui-environments-show-404" => {
+          "opscode-chef-webui-environments-get-env-404" => {
             "message_id" => "33002",
             "languages" => {
               "en_us" => "Environment not found.",
@@ -1872,6 +1872,20 @@ module Mixlib
             "message_id" => "33008",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to create a new environment in this organization.",
+              "zh_cn" => "" # TODO: nuo, rock this stuff!
+            }
+          },
+          "opscode-chef-webui-environments-update-403" => {
+            "message_id" => "33009",
+            "languages" => {
+              "en_us" => "Permission denied. You do not have permission to edit this environment.",
+              "zh_cn" => "" # TODO: nuo, rock this stuff!
+            }
+          },
+          "opscode-chef-webui-environments-update-404" => {
+            "message_id" => "33010",
+            "languages" => {
+              "en_us" => "Environment not found.",
               "zh_cn" => "" # TODO: nuo, rock this stuff!
             }
           }
