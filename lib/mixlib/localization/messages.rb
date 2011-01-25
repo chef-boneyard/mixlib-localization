@@ -1872,21 +1872,35 @@ module Mixlib
             "message_id" => "33008",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to create a new environment in this organization.",
-              "zh_cn" => "" # TODO: nuo, rock this stuff!
+              "zh_cn" => "对不起，您无权在此组织创建新的环境。"
             }
           },
           "opscode-chef-webui-environments-update-403" => {
             "message_id" => "33009",
             "languages" => {
               "en_us" => "Permission denied. You do not have permission to edit this environment.",
-              "zh_cn" => "" # TODO: nuo, rock this stuff!
+              "zh_cn" => "对不起，您无权编辑此环境。"
             }
           },
           "opscode-chef-webui-environments-update-404" => {
             "message_id" => "33010",
             "languages" => {
               "en_us" => "Environment not found.",
-              "zh_cn" => "" # TODO: nuo, rock this stuff!
+              "zh_cn" => "无法找到环境。"
+            }
+          },
+          "opscode-chef-webui-environments-list-nodes-404" => {
+            "message_id" => "33011",
+            "languages" => {
+              "en_us" => "Environment not found.",
+              "zh_cn" => "无法找到环境。"
+            }
+          },
+          "opscode-chef-webui-environments-list-nodes-403" => {
+            "message_id" => "33012",
+            "languages" => {
+              "en_us" => "Permission denied. You do not have permission to list nodes in this environment. You need \"read\" permission on nodes and on this environment.",
+              "zh_cn" => "对不起，您无权查看此环境中的节点列表。您需要有对节点列表和此环境的“读”权限"
             }
           }
         }
