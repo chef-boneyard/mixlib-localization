@@ -1867,6 +1867,13 @@ module Mixlib
               "en_us" => "You are not allowed to delete the _default environment.",
               "zh_cn" => "_default环境是默认环境，不允许被删除。"
             }
+          },
+          "opscode-chef-webui-environments-create-403" => {
+            "message_id" => "33008",
+            "languages" => {
+              "en_us" => "Permission denied. You do not have permission to create a new environment in this organization.",
+              "zh_cn" => "" # TODO: nuo, rock this stuff!
+            }
           }
         }
       end
