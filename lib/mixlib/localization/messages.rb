@@ -1916,6 +1916,20 @@ module Mixlib
               "en_us" => "The environment was updated successfully.",
               "zh_cn" => "成功更新环境。"
             }
+          },
+          "opscode-chef-webui-environments-acl-set" => {
+            "message_id" => "33015",
+            "languages" => {
+              "en_us" => "Failed to set permissions on this environment.",
+              "zh_cn" => "对不起，更新此环境的权限设置失败。"
+            }
+          },
+          "opscode-chef-webui-environments-container-acl-get-403" => {
+            "message_id" => "33016",
+            "languages" => {
+              "en_us" => "Permission denied. You do not have permission to read the permissions on the environments collection in this organization.",
+              "zh_cn" => "对不起，您没有权限读取此组织的环境集合的权限设置。"
+            }
           }
         }
       end
