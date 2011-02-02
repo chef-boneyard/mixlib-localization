@@ -65,7 +65,7 @@ module Mixlib
       # Take what returns from self.get_message, and returns the formatted string.
       # Example: input: ["10000", "You are not authorized to view the node."], output: "Error 10000: You are not authorized to view the node."
       def self.parse_error_message(message_array)
-        "Error #{message_array[0]}: #{message_array[1]}"
+        "#{message_array[1]} (Error #{message_array[0]})"
       end
 
       # Convenience method combining get_message and parse_error_message
