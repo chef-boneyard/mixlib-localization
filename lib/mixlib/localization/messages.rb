@@ -2029,6 +2029,13 @@ module Mixlib
             "en_us" => "The information you entered contains illegal characters. The following characters are allowed: a-z, 0-9, _, -",
             "zh_cn" => "您输入的信息含有不支持的字符。系统支持的字符包括：a-z, 0-9, _, -。"
           }
+        },
+        "opscode-account-organizations-update-400-chargify-unavailable" => {
+          "message_id" => "34006",
+          "languages" => {
+            "en_us" => "We are unable to update your account information at this time. Please try back again shortly.",
+            "zh_cn" => ""
+          }
         }
       }
 
