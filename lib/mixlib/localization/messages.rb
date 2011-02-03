@@ -1988,10 +1988,10 @@ module Mixlib
             "zh_cn" => "对不起，更新此组织的环境集合的权限设置失败。"
           }
         },
-        "opscode-account-orgnanizations-404" => {
+        "opscode-account-organizations-404" => {
           "message_id" => "34000",
           "languages" => {
-            "en_us" => "Organization not found",
+            "en_us" => "Organization not found.",
             "zh_cn" => ""
           }
         },
@@ -2009,7 +2009,7 @@ module Mixlib
             "zh_cn" => ""
           }
         },
-        "opscode-account-organizations-update-400-invalid-billng-plan" => {
+        "opscode-account-organizations-update-400-invalid-billing-plan" => {
           "message_id" => "34003",
           "languages" => {
             "en_us" => "Invalid billing plan selected.",
