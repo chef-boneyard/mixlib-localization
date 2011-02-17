@@ -1210,6 +1210,13 @@ module Mixlib
             "zh_cn" => "对不起，尝试删除此角色超时。"
           }
         },
+        "opscode-chef-webui-roles-new-environments-index-403" => {
+          "message_id" => "25033",
+          "languages" => {
+            "en_us" => "You do not have permission to view environments list in this organization. Only the default run list can be edited for this role.",
+            "zh_cn" => "您没有权限查看此组织的环境列表，因此您只能编辑此角色的默认任务清单。"
+          }
+        },
         "opscode-chef-webui-databags-show-403" => {
           "message_id" => "26001",
           "languages" => {
@@ -1992,35 +1999,35 @@ module Mixlib
           "message_id" => "34000",
           "languages" => {
             "en_us" => "Organization not found.",
-            "zh_cn" => ""
+            "zh_cn" => "无法找到此组织。"
           }
         },
         "opscode-account-organizations-update-403-generic" => {
           "message_id" => "34001",
           "languages" => {
             "en_us" => "Permission denied. You do not have permission to update this organization.",
-            "zh_cn" => ""
+            "zh_cn" => "对不起，您无权更新此组织。"
           }
         },
         "opscode-account-organizations-update-403-billing" => {
           "message_id" => "34002",
           "languages" => {
             "en_us" => "Permission denied. You do not have permission to update the billing information for this organization.",
-            "zh_cn" => ""
+            "zh_cn" => "对不起，您无权更新此组织的支付信息。"
           }
         },
         "opscode-account-organizations-update-400-invalid-billing-plan" => {
           "message_id" => "34003",
           "languages" => {
             "en_us" => "Invalid billing plan selected.",
-            "zn_ch" => ""
+            "zn_ch" => "对不起，您选择了无效的计费套餐。"
           }
         },
         "opscode-account-organizations-update-400-chargify-error" => {
           "message_id" => "34004",
           "languages" => {
             "en_us" => "An error occured while updating your account information. Please check that your billing information is up to date and correct.",
-            "zn_ch" => ""
+            "zn_ch" => "对不起，更新您的账户时出错，请确认您的支付信息输入无误。"
           }
         },
         "opscode-account-organizations-update-400-generic" => {
@@ -2034,7 +2041,7 @@ module Mixlib
           "message_id" => "34006",
           "languages" => {
             "en_us" => "We are unable to update your account information at this time. Please try back again shortly.",
-            "zh_cn" => ""
+            "zh_cn" => "对不起，我们无法更新您的账户信息。请稍候再试。"
           }
         }
       }
