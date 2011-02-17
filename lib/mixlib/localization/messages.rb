@@ -1210,7 +1210,7 @@ module Mixlib
             "zh_cn" => "对不起，尝试删除此角色超时。"
           }
         },
-        "opscode-chef-webui-roles-new-environments-index-403" => {
+        "opscode-chef-webui-roles-new-edit-environments-index-403" => {
           "message_id" => "25033",
           "languages" => {
             "en_us" => "You do not have permission to view environments list in this organization. Only the default run list can be edited for this role.",
