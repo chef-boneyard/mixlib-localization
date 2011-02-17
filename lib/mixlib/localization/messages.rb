@@ -1995,6 +1995,13 @@ module Mixlib
             "zh_cn" => "对不起，更新此组织的环境集合的权限设置失败。"
           }
         },
+        "opscode-chef-webui-environments-get-env-500" => {
+          "message_id" => "33019",
+          "languages" => {
+            "en_us" => "There was a problem loading the environment. Please try again shortly.",
+            "zh_cn" => "加载环境时出现系统内部问题，请稍候重试。"
+          }
+        },
         "opscode-account-organizations-404" => {
           "message_id" => "34000",
           "languages" => {
