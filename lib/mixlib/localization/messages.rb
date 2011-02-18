@@ -209,13 +209,6 @@ module Mixlib
             "zh_cn" => "对不起，您没有权限查看此组织的角色和配方单，而显示新节点表单需要这些权限。"
           }
         },
-        "opscode-chef-webui-nodes-new-408" => {
-          "message_id" => "20012",
-          "languages" => {
-            "en_us" => "Request timed out when attempting to display the new node form.",
-            "zh_cn" => "对不起，尝试显示新节点表单超时。"
-          }
-        },
         "opscode-chef-webui-nodes-edit-404" => {
           "message_id" => "20013",
           "languages" => {
