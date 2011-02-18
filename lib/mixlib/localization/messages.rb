@@ -205,7 +205,7 @@ module Mixlib
         "opscode-chef-webui-nodes-new-roles-403" => {
           "message_id" => "20011",
           "languages" => {
-            "en_us" => "Permission denied. You do not have permission to view roles and recipes in this organization. These objects are required to display the new node form.",
+            "en_us" => "Permission denied. You do not have permission to view roles in this organization.",
             "zh_cn" => "对不起，您没有权限查看此组织的角色和配方单，而显示新节点表单需要这些权限。"
           }
         },
