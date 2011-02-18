@@ -202,7 +202,7 @@ module Mixlib
             "zh_cn" => "对不起，尝试读取此组织的节点列表超时。"
           }
         },
-        "opscode-chef-webui-nodes-new-403" => {
+        "opscode-chef-webui-nodes-new-roles-403" => {
           "message_id" => "20011",
           "languages" => {
             "en_us" => "Permission denied. You do not have permission to view roles and recipes in this organization. These objects are required to display the new node form.",
@@ -347,6 +347,20 @@ module Mixlib
           "languages" => {
             "en_us" => "Request timed out when attempting to delete this node.",
             "zh_cn" => "对不起，尝试删除此节点超时。"
+          }
+        },
+        "opscode-chef-webui-nodes-new-environments-403" => {
+          "message_id" => "20032",
+          "languages" => {
+            "en_us" => "Permission denied. You do not have permission to view the selected environment in this organization.",
+            "zh_cn" => "对不起，您无权查看所选的环境。"
+          }
+        },
+        "opscode-chef-webui-nodes-new-environments-404" => {
+          "message_id" => "20033",
+          "languages" => {
+            "en_us" => "Environment not found.",
+            "zh_cn" => "无法找到此环境。"
           }
         },
         "opscode-chef-webui-users-index-403" => {
