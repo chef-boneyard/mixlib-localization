@@ -202,7 +202,7 @@ module Mixlib
             "zh_cn" => "对不起，尝试读取此组织的节点列表超时。"
           }
         },
-        "opscode-chef-webui-nodes-new-roles-403" => {
+        "opscode-chef-webui-nodes-roles-403" => {
           "message_id" => "20011",
           "languages" => {
             "en_us" => "Permission denied. You do not have permission to view roles in this organization.",
@@ -342,18 +342,18 @@ module Mixlib
             "zh_cn" => "对不起，尝试删除此节点超时。"
           }
         },
-        "opscode-chef-webui-nodes-new-environments-403" => {
+        "opscode-chef-webui-nodes-environments-403" => {
           "message_id" => "20032",
           "languages" => {
-            "en_us" => "Permission denied. You do not have permission to view the selected environment in this organization.",
-            "zh_cn" => "对不起，您无权查看所选的环境。"
+            "en_us" => "Permission denied. You do not have permission to view available recipes in the selected environment in this organization.",
+            "zh_cn" => "对不起，您无权在此组织查看此环境中的配方单。"
           }
         },
-        "opscode-chef-webui-nodes-new-environments-404" => {
+        "opscode-chef-webui-nodes-environments-404" => {
           "message_id" => "20033",
           "languages" => {
-            "en_us" => "Environment not found.",
-            "zh_cn" => "无法找到此环境。"
+            "en_us" => "Unable to load available recipes. Selected environment not found.",
+            "zh_cn" => "无法找到所选环境，因此无法加载环境中的配方单。"
           }
         },
         "opscode-chef-webui-users-index-403" => {
