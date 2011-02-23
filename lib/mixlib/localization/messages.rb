@@ -356,6 +356,20 @@ module Mixlib
             "zh_cn" => "无法找到所选环境，因此无法加载环境中的配方单。"
           }
         },
+        "opscode-chef-webui-nodes-recipes-404" => {
+          "message_id" => "20034",
+          "languages" => {
+            "en_us" => "Unable to load expanded recipes.",
+            "zh_cn" => "无法加载展开的配方单。"
+          }
+        },
+        "opscode-chef-webui-nodes-recipes-403" => {
+          "message_id" => "20035",
+          "languages" => {
+            "en_us" => "Permission Denied. You do not have permission to expand one or more of the roles. You need read permission on the roles.",
+            "zh_cn" => "对不起，您无权访问一个或多个角色，因此您无法查看展开的配方单。"
+          }
+        },
         "opscode-chef-webui-users-index-403" => {
           "message_id" => "21001",
           "languages" => {
