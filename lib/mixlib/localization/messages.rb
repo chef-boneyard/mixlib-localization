@@ -2037,6 +2037,13 @@ module Mixlib
             "zh_cn" => "对不起，您无权在此环境中查看此食谱。"
           }
         },
+        "opscode-chef-webui-environments-cookbooks-show-404" => {
+          "message_id" => "33022",
+          "languages" => {
+            "en_us" => "Selected cookbook or environment not found.",
+            "zh_cn" => "无法找到此食谱或所在的环境。"
+          }
+        },
         "opscode-account-organizations-404" => {
           "message_id" => "34000",
           "languages" => {
