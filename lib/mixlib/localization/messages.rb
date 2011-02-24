@@ -2023,6 +2023,20 @@ module Mixlib
             "zh_cn" => "加载环境时出现系统内部问题，请稍候重试。"
           }
         },
+        "opscode-chef-webui-environments-cookbooks-403" => {
+          "message_id" => "33020",
+          "languages" => {
+            "en_us" => "Permission Denied. You do not have permission on this environment to list cookbooks.",
+            "zh_cn" => "对不起，您无权在此环境中查看食谱列表。"
+          }
+        },
+        "opscode-chef-webui-environments-cookbooks-show-403" => {
+          "message_id" => "33021",
+          "languages" => {
+            "en_us" => "Permission Denied. You do not have permission on this environment to view the cookbook.",
+            "zh_cn" => "对不起，您无权在此环境中查看此食谱。"
+          }
+        },
         "opscode-account-organizations-404" => {
           "message_id" => "34000",
           "languages" => {
