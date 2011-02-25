@@ -2044,6 +2044,13 @@ module Mixlib
             "zh_cn" => "无法找到此食谱或所在的环境。"
           }
         },
+        "opscode-chef-webui-environments-default-edit-405" => {
+          "message_id" => "33023",
+          "languages" => {
+            "en_us" => "The '_default' environment cannot be edited.",
+            "zh_cn" => "_default环境为默认环境，不允许被更改。"
+          }
+        },
         "opscode-account-organizations-404" => {
           "message_id" => "34000",
           "languages" => {
