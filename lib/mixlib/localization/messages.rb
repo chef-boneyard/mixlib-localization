@@ -2023,6 +2023,20 @@ module Mixlib
             "zh_cn" => "加载环境时出现系统内部问题，请稍候重试。"
           }
         },
+        "opscode-chef-webui-environments-load-env-filter-403" => {
+          "message_id" => "33020",
+          "languages" => {
+            "en_us" => "Permission Denied. You do not have 'read' permission on the selected environment, hence no operations can be performed in this environment using the Management Console.",
+            "zh_cn" => "对不起，您无权查看所选的环境，因此无法在此环境中进行任何操作。"
+          }
+        },
+        "opscode-chef-webui-environments-load-env-filter-404" => {
+          "message_id" => "33021",
+          "languages" => {
+            "en_us" => "The selected environment no longer exists, hence no operations can be performed in this environment using the Management Console.",
+            "zh_cn" => "对不起，无法找到所选的环境，因此无法在此环境中进行任何操作。"
+          }
+        },
         "opscode-chef-webui-environments-default-edit-405" => {
           "message_id" => "33023",
           "languages" => {
