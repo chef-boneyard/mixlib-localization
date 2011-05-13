@@ -2044,6 +2044,27 @@ module Mixlib
             "zh_cn" => "_default环境为默认环境，不允许被更改。"
           }
         },
+        "opscode-chef-webui-quick-start-destroy-403" => {
+          "message_id" => "40000",
+          "languages" => {
+            "en_us" => "Permission Denied. You do not have permission to delete this quick start instance.",
+            "zh_cn" => "对不起，您没有权限删除此快速开始实例。"
+          }
+        },
+        "opscode-chef-webui-quick-start-destroy-404" => {
+          "message_id" => "40001",
+          "languages" => {
+            "en_us" => "Not Found. The quick start instance may have been deleted.",
+            "zh_cn" => "无法找到此快速开始实例，它可能已经被删除。"
+          }
+        },
+        "opscode-chef-webui-quick-start-destroy-500" => {
+          "message_id" => "40002",
+          "languages" => {
+            "en_us" => "An application error has occurred. Please try again later.",
+            "zh_cn" => "应用程序错误，请稍候重试。多谢理解。"
+          }
+        },
         "opscode-account-organizations-404" => {
           "message_id" => "34000",
           "languages" => {
