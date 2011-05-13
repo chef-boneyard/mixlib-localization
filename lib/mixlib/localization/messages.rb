@@ -2065,6 +2065,13 @@ module Mixlib
             "zh_cn" => "应用程序错误，请稍候重试。多谢理解。"
           }
         },
+        "opscode-chef-webui-quick-start-general-403" => {
+          "message_id" => "40002",
+          "languages" => {
+            "en_us" => "Permission Denied. Only users in the admins group can use Quick Start.",
+            "zh_cn" => "对不起，您没有权限使用快速开始功能。只有管理员组中的用户有此权限。"
+          }
+        },
         "opscode-account-organizations-404" => {
           "message_id" => "34000",
           "languages" => {
