@@ -2,7 +2,7 @@
 #
 # Author:: Nuo Yan <nuo@opscode.com>
 #
-# Copyright 2010-2011, Opscode, Inc.
+# Copyright 2010, Opscode, Inc.
 #
 # All rights reserved - do not redistribute
 #
@@ -2070,90 +2070,6 @@ module Mixlib
           "languages" => {
             "en_us" => "Permission Denied. Only users in the admins group can use Quick Start.",
             "zh_cn" => "对不起，您没有权限使用快速开始功能。只有管理员组中的用户有此权限。"
-          }
-        },
-        "opscode-chef-webui-quick-start-status-terminating-instance" => {
-          "message_id" => "40004",
-          "languages" => {
-            "en_us" => "Terminating Instance",
-            "zh_cn" => "正在结束"
-          }
-        },
-        "opscode-chef-webui-quick-start-status-termination-success" => {
-          "message_id" => "40005",
-          "languages" => {
-            "en_us" => "Terminated",
-            "zh_cn" => "已结束"
-          }
-        },
-        "opscode-chef-webui-quick-start-status-termination-failure" => {
-          "message_id" => "40006",
-          "languages" => {
-            "en_us" => "Failed Terminating Instance",
-            "zh_cn" => "结束失败"
-          }
-        },
-        "opscode-chef-webui-quick-start-status-termination-timeout" => {
-          "message_id" => "40007",
-          "languages" => {
-            "en_us" => "Timed Out Terminating Instance",
-            "zh_cn" => "结束失败：超时"
-          }
-        },        
-        "opscode-chef-webui-quick-start-status-provisioning-instance" => {
-          "message_id" => "40008",
-          "languages" => {
-            "en_us" => "Provisioning Instance",
-            "zh_cn" => "建立中"
-          }
-        },
-        "opscode-chef-webui-quick-start-status-provision-success" => {
-          "message_id" => "40009",
-          "languages" => {
-            "en_us" => "Success",
-            "zh_cn" => "成功"
-          }
-        },
-        "opscode-chef-webui-quick-start-status-provision-failure" => {
-          "message_id" => "40010",
-          "languages" => {
-            "en_us" => "Failed Provisioning Instance",
-            "zh_cn" => "建立服务器失败"
-          }
-        },
-        "opscode-chef-webui-quick-start-status-provision-timeout" => {
-          "message_id" => "40011",
-          "languages" => {
-            "en_us" => "Timed Out Provisioning Instance",
-            "zh_cn" => "建立服务器超时"
-          }
-        },
-        "opscode-chef-webui-quick-start-status-populating-data" => {
-          "message_id" => "40012",
-          "languages" => {
-            "en_us" => "Populating Organization Data",
-            "zh_cn" => "准备建立服务器：处理数据中"
-          }
-        },
-        "opscode-chef-webui-quick-start-status-data-population-success" => {
-          "message_id" => "40013",
-          "languages" => {
-            "en_us" => "Organization Populated",
-            "zh_cn" => "数据准备完毕"
-          }
-        },
-        "opscode-chef-webui-quick-start-status-data-population-failure" => {
-          "message_id" => "40014",
-          "languages" => {
-            "en_us" => "Failed Populating Organization Data",
-            "zh_cn" => "数据准备失败"
-          }
-        },
-        "opscode-chef-webui-quick-start-status-data-population-timeout" => {
-          "message_id" => "40015",
-          "languages" => {
-            "en_us" => "Timed Out Populating Organization Data",
-            "zh_cn" => "准备数据超时"
           }
         },
         "opscode-account-organizations-404" => {
