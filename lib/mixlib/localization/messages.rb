@@ -2099,7 +2099,7 @@ module Mixlib
             "en_us" => "Timed Out Terminating Instance",
             "zh_cn" => "结束失败：超时"
           }
-        },        
+        },
         "opscode-chef-webui-quick-start-status-provisioning-instance" => {
           "message_id" => "40008",
           "languages" => {
@@ -2154,6 +2154,20 @@ module Mixlib
           "languages" => {
             "en_us" => "Timed Out Populating Organization Data",
             "zh_cn" => "准备数据超时"
+          }
+        },
+        "opscode-chef-webui-quick-start-show-403" => {
+          "message_id" => "40016",
+          "languages" => {
+            "en_us" => "Permission Denied. Only users in the admins group can use Quick Start.",
+            "zh_cn" => "对不起，您没有权限使用快速开始功能。只有管理员组中的用户有此权限。"
+          }
+        },
+        "opscode-chef-webui-quick-start-show-404" => {
+          "message_id" => "40017",
+          "languages" => {
+            "en_us" => "Quick Start Not Found.",
+            "zh_cn" => "无法找到指定快速开始。"
           }
         },
         "opscode-account-organizations-404" => {
