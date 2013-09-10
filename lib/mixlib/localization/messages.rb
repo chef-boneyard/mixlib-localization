@@ -692,6 +692,7 @@ module Mixlib
             "zh_cn" => "对不起，更新此组织的客户端集合的权限设置失败。"
           }
         },
+
         "opscode-chef-webui-clients-acl-get-403" => {
           "message_id" => "22026",
           "languages" => {
@@ -711,6 +712,13 @@ module Mixlib
           "languages" => {
             "en_us" => "Failed to set permissions on this client.",
             "zh_cn" => "对不起，更新此客户端的权限设置失败。"
+          }
+        },
+        "opscode-chef-webui-clients-acl-get-404" => {
+          "message_id" => "22029",
+          "languages" => {
+            "en_us" => "Client not found.",
+            "zh_cn" => "无法找到客户端。"
           }
         },
         "opscode-chef-webui-groups-index-403" => {
